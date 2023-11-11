@@ -1,0 +1,196 @@
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: local("IBM Plex Sans"), url(assets/IBM_Plex_Sans/IBMPlexSans-Bold.ttf),
+    url(assets/IBM_Plex_Sans/IBMPlexSans-Regular.ttf),
+    url(assets/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Trispace";
+  src: url(assets/Trispace/static/Trispace-Bold.ttf),
+    url(assets/Trispace/static/Trispace-ExtraBold.ttf);
+}
+:root {
+  --primary-color-hero: #6a5151;
+  --primary-color-main: #000000;
+  --secondary-color-hero: #ffffff;
+  --secondary-color-main: #fff7e2;
+  --background-color-productCards: #606060;
+  --btn-color-main: #d9d9d9;
+  --shadow-color: ;
+}
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+a {
+  text-decoration: none;
+  color: var(--secondary-color-hero);
+}
+a:hover {
+  text-decoration: none;
+}
+/* navbar */
+.nav-bar {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 5.875rem;
+  padding: 0rem 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 36.75rem;
+  flex-shrink: 0;
+  flex-direction: row;
+}
+.bar {
+  height: 100%;
+  background-color: var(--primary-color-hero);
+  color: var(--secondary-color-hero);
+  gap: 4.74rem;
+  display: flex;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar-anchor {
+  gap: 0.4rem;
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  height: 100%;
+  background-color: var(--primary-color-hero);
+  color: var(--secondary-color-hero);
+}
+/* navbar ends*/
+/* hero */
+.hero-main {
+  display: block;
+  background-color: var(--primary-color-hero);
+  width: 100%;
+  height: 1080px;
+  flex-shrink: 0;
+}
+.text-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  position: relative;
+  top: 14rem;
+  left: 5rem;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.main-header > h1 {
+  color: var(--secondary-color-hero);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 6.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header-para {
+  margin: 0;
+  color: var(--secondary-color-hero);
+}
+.header-para > p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.hero {
+  gap: 10rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.big-top {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.625rem;
+}
+.big-bottom {
+  margin: 0;
+  color: var(--secondary-color-hero);
+}
+.mail-collector > p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 107%;
+}
+.btn-hero {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-top: 2%;
+  border: none;
+  background-color: var(--btn-color-main);
+  color: #000;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 0.5rem;
+  width: 10.1875rem;
+  height: 3.0625rem;
+}
+/* hero ends */
+/* MAIN */
+main {
+  display: flex;
+  height: 67.5rem;
+}
+.produkt-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.produkt-text-header {
+  padding-left: 16%;
+  display: flex;
+  color: var(--secondary-color-hero);
+  font-family: "Trispace", sans-serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 10.8rem;
+  text-transform: uppercase;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+}
+.produkt-text-bread {
+  padding-left: 16%;
+  margin: 0;
+  color: var(--secondary-color-main);
+  font-family: "IBM Plex Sans", "Trispace", sans-serif;
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 92%;
+}
+.bg-black {
+  display: flex;
+  background-color: var(--primary-color-main);
+  width: 50%;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.bg-checkers {
+  width: 50%;
+  background-image: url("assets/3D produkt checkersBG.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+/* MAIN ENDS */

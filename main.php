@@ -1,5 +1,5 @@
 <?php // lanseringsdelenav sidan för den nya produkten?>
-<main>
+<main class="main-product3d">
     <div class="bg-black">
         <div class="produkt-wrapper">
             <div class="produkt-text-header">

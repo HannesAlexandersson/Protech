@@ -1,5 +1,8 @@
         <footer>
             <div class="footer-wrapper">
+                <div class="copyright-small">
+                        <?=create_copyright()?>   
+                    </div>                 
                 <div class="logo-socials">
                     <div class="logo-footer">
                         <img src="assets/PT Logo.svg" />  
@@ -24,24 +27,13 @@
                 </div>
                 <div class="credentials">
                     <div class="column-left footer-columns">
-                        <p class="heading-footer-credentials">Protech</p>
-                        <span>
-                            <p>Om</p>
-                            <p>oss</p>
-                            <p>Kontakt</p>
-                            <p>Cookies</p>
-                            <p>Integritets- policy</p>
-                        </span>
+                        <p class="heading-footer-credentials">Legal</p>                                                  
+                        <p class="int">Integritets- och cookiepolicy</p>                        
                     </div>
                     <div class="column-right footer-columns">
-                    <p class="heading-footer-credentials">Protech</p>
-                        <span>
-                            <p>Om</p>
-                            <p>oss</p>
-                            <p>Kontakt</p>
-                            <p>Cookies</p>
-                            <p>Integritets- policy</p>
-                        </span>
+                        <p class="heading-footer-credentials">Hjälp</p>                        
+                        <p class="int">Om oss</p>                           
+                        <p class="int">Kontakt</p>                         
                     </div>
                 </div>
             </div>

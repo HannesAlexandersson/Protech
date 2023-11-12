@@ -1,5 +1,5 @@
 <?php //för delen av sajten där vi lägger upp "vår vison" samma grund som main, bara annorlunda text ?>
-<main>
+<main class="main-vision">
     <div class="bg-black">
         <div class="vision-wrapper">
             <div class="vision-text-header">

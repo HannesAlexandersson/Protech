@@ -8,6 +8,6 @@
         <a class="navbar-anchor"  href="#"><p>Kontakt</p></a>
     </div>
     <div class="bars">
-        <img class="hamburger" src="assets/menu-outline.svg" />
+        <img class="hamburger" src="assets/icons8-menu-bar.svg" />
     </div>
 </nav>

@@ -664,9 +664,9 @@ span > p {
 
   .main-vision {
     display: flex;
-    height: 46rem;
+    height: 100%;
     flex-direction: column;
-  }
+}
   .vision-text-header {
     margin-top: 1rem;
     font-size: 1rem;

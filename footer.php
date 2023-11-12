@@ -27,13 +27,13 @@
                 </div>
                 <div class="credentials">
                     <div class="column-left footer-columns">
-                        <p class="heading-footer-credentials">Legal</p>                                                  
-                        <p class="int">Integritets- och cookiepolicy</p>                        
+                        <a href="#"><p class="heading-footer-credentials">Legal</p></a>                                                   
+                        <a href="#"><p class="int">Integritets- och cookiepolicy</p></a>                         
                     </div>
                     <div class="column-right footer-columns">
-                        <p class="heading-footer-credentials">Hjälp</p>                        
-                        <p class="int">Om oss</p>                           
-                        <p class="int">Kontakt</p>                         
+                        <a href="#"><p class="heading-footer-credentials">Hjälp</p></a>         
+                        <a href="#"><p class="int">Om oss</p></a>                            
+                        <a href="#"><p class="int">Kontakt</p></a>                          
                     </div>
                 </div>
             </div>

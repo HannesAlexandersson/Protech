@@ -7,7 +7,7 @@ __DIR__. require 'header.php';
 
 __DIR__. require 'main.php';
 
-__DIR__. require 'products.php';
+__DIR__. require 'test-products.php';
 
 __DIR__. require 'vision.php';
 

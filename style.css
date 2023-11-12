@@ -195,7 +195,69 @@ main {
   background-size: cover;
 }
 /* MAIN ENDS */
+/*PRODUCT CARDS*/
 
+.product-wrapper {
+  width: 100%;
+}
+.product-header {
+  background-color: var(--primary-color-main);
+  color: var(--secondary-color-hero);
+  width: 100%;
+  font-family: "Trispace", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.product-header > h1 {
+  margin-left: 7%;
+}
+.product-card-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-cards {
+  background-color: var(--background-color-productCards);
+  width: 50%;
+  border: 1px solid var(--primary-color-main);
+  display: flex;
+}
+.product-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.product-card-product-name {
+  color: var(--secondary-color-hero);
+  font-family: "Trispace", sans-serif;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.product-card-p {
+  color: var(--secondary-color-hero);
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.product-card-button {
+  border-radius: 1rem;
+  background-color: var(--secondary-color-hero);
+}
+.product-card-img {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+}
+/*PRODUCT CARDS ENDS*/
 /*VISION*/
 .vision-wrapper {
   height: 100%;
@@ -207,7 +269,7 @@ main {
   margin-bottom: 10%;
   margin-left: 10%;
   color: var(--secondary-color-hero);
-  font-family: 'Trispace', sans-serif;
+  font-family: "Trispace", sans-serif;
   font-size: 3rem;
   font-style: normal;
   font-weight: 800;
@@ -217,13 +279,13 @@ main {
   margin-left: 10%;
   gap: 0.5rem;
   color: var(--secondary-color-hero);
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   display: flex;
   font-size: 2rem;
   font-style: normal;
   line-height: normal;
 }
-.extra-bold{
+.extra-bold {
   font-weight: 700;
 }
 .vision-text-bread {
@@ -231,7 +293,7 @@ main {
   margin-left: 10%;
   padding: 2rem 2rem 2rem 0rem;
   color: var(--secondary-color-hero);
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 300;

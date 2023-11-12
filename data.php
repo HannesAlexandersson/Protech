@@ -4,7 +4,7 @@ $productArray =
     "produkt-namn1" => 
     [
         "produkt-namn" => "produkt-namn1",
-        "produkt-bild" => "assets/product_img/placeholder_product1.png",
+        "produkt-bild" => "assets/product_img/Placeholder_product1.svg",
         "produkt-pris" => "produkt-pris1",
         "produkt-beskrivning" => "Här kan du välja mellan olika typer av pedaler och andra saker mm",
         "produkt-kategori" => "produkt-kategori1",
@@ -14,7 +14,7 @@ $productArray =
     "produkt-namn2" => 
     [
         "produkt-namn" => "produkt-namn2",
-        "produkt-bild" => "assets/product_img/placeholder_product2.png",
+        "produkt-bild" => "assets/product_img/Placeholder_product2.svg",
         "produkt-pris" => "produkt-pris2",
         "produkt-beskrivning" => "Här kan du välja mellan olika typer av pedaler och andra saker mm",
         "produkt-kategori" => "produkt-kategori2",
@@ -24,7 +24,7 @@ $productArray =
     "produkt-namn3" => 
     [
         "produkt-namn" => "produkt-namn3",
-        "produkt-bild" => "assets/product_img/placeholder_product3.png",
+        "produkt-bild" => "assets/product_img/Placeholder_product3.svg",
         "produkt-pris" => "produkt-pris3",
         "produkt-beskrivning" => "Här kan du välja mellan olika typer av pedaler och andra saker mm",
         "produkt-kategori" => "produkt-kategori3",
@@ -34,7 +34,7 @@ $productArray =
     "produkt-namn4" => 
     [
         "produkt-namn" => "produkt-namn4",
-        "produkt-bild" => "assets/product_img/placeholder_product4.png",
+        "produkt-bild" => "assets/product_img/Placeholder_product4.svg",
         "produkt-pris" => "produkt-pris4",
         "produkt-beskrivning" => "Här kan du välja mellan olika typer av pedaler och andra saker mm",
         "produkt-kategori" => "produkt-kategori4",

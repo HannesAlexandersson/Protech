@@ -392,7 +392,9 @@ main {
 }
 
 .footer-columns {
+  gap: 1rem;
   display: flex;
+  flex-direction: column;
 }
 .heading-footer-credentials {
   margin-bottom: 15%;
@@ -404,12 +406,12 @@ main {
   font-weight: 700;
   line-height: normal;
 }
-span > p {
+.int {
   color: var(--secondary-color-hero);
   font-size: 1rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
 }
 .copyright-small {
   display: none;
@@ -565,7 +567,7 @@ span > p {
     border-bottom: solid 1rem var(--primary-color-main);
     border-left: solid 1rem var(--primary-color-main);
     border-right: solid 1rem var(--primary-color-main);
-    height: 20rem;
+    height: 23.5rem;
     width: 100%;
     background-image: url("assets/3D produkt checkersBG.png");
     background-position: center;

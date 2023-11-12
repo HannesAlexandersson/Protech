@@ -418,7 +418,7 @@ span > p {
 .bars {
   display: none;
 }
-@media (min-width: 360px) {
+@media (max-width: 360px) {
   * {
     max-width: 360px;
   }

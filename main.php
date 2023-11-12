@@ -1,3 +1,4 @@
+<?php // lanseringsdelenav sidan för den nya produkten?>
 <main>
     <div class="bg-black">
         <div class="produkt-wrapper">

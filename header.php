@@ -3,10 +3,16 @@
         <div class="hero">
             <div class="big-top">
                 <div class="main-header">
-                    <h1>THE SEQUENCER</h1>
+                    <h1>KREATIVITET</h1>
+                    <h1>FORMAD I</h1>                    
+                    <h1 class="header-green">VARJE </h1>
+                    <h1 class="header-pink">TON</h1>                    
                 </div>
                 <div class="header-para">
-                    <p>The new sequencer with cool features.</p>
+                    <p>
+                        ProTech introducerar en ny kollektion där avancerad teknik möter musikalisk passion. 
+                        Var med på resan till musikens framtid.
+                    </p>
                 </div>  
             </div>
             <div class="big-bottom"> 
@@ -17,4 +23,5 @@
             </div>
         </div>
     </div>
+    <img class="hero-rect" src="assets/hero/Rectangle 90.png" />
 </hero>

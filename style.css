@@ -25,8 +25,8 @@ body {
   background-repeat: no-repeat;
   background-image: url(assets/backgrounds/Gradient.png);
   background-size: cover;
-  background-clip: content-box; 
-  height: 294.625rem;
+  background-clip: content-box;  
+  
 }
 
 a {
@@ -90,12 +90,10 @@ a:hover {
 }
 /* navbar ends*/
 /* hero */
-.main-rd{
-  background-image:inherit;
-}
+
 .hero-main {
   display: block;
-  background-image: url("assets/backgrounds/background_with_gradient.png");  
+  background-image: url("assets/backgrounds/background_with_gradient.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: content-box;
@@ -187,20 +185,32 @@ a:hover {
   width: 10.1875rem;
   height: 3.0625rem;
 }
-.hero-rect {
-  top: 22%;
-  position: relative;
-}
 /* hero ends */
 /* MAIN */
-main {
+.rect-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-image: url('assets/backgrounds/Gradient.png');
+  background-repeat: no-repeat;
+  position: relative;
+  top: 1%;
+}
+.hero-rect {
+  margin: 0;  
+  
+}
+.main-rd {
+  background-image: url('assets/backgrounds/Gradient.png');
   display: flex;
   height: 104.5rem;
+  width: 100%;  
 }
 .bg-black {
   display: flex;
-  background-color: var(--background-black);
-  width: 120rem;
+  background-color: var(--background-black);  
+  background-repeat: no-repeat;
+  width: 100%;
   height: 104.72756rem;
   align-content: center;
   align-items: center;
@@ -311,14 +321,12 @@ main {
   flex-direction: column;
 }
 .model-spec-list {
-  margin-left: 0.5rem;  
+  margin-left: 0.5rem;
   padding-left: 1rem;
 }
 /* MAIN ENDS */
 /*PRODUCT CARDS*/
-content{
-  background-image: url("assets/backgrounds/Gradient.png");
-}
+
 .product-wrapper {
   width: 100%;
 }
@@ -399,143 +407,109 @@ content{
 }
 /*PRODUCT CARDS ENDS*/
 /*VISION*/
-.vision-wrapper {
-  height: 100%;
+.main-vision {
+  aspect-ratio: 1/1;
+  background-image: url(assets/backgrounds/Gradient.png);
+  width: 100%;
+  height: 56rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.vision-text-header {
-  margin-bottom: 10%;
-  margin-left: 10%;
-  color: var(--primary-white);
-  font-family: "Trispace", sans-serif;
-  font-size: 3rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-}
-.semi-header-vision {
-  margin-left: 10%;
-  gap: 0.5rem;
-  color: var(--secondary-color-hero);
-  font-family: "IBM Plex Sans", sans-serif;
-  display: flex;
-  font-size: 2rem;
-  font-style: normal;
-  line-height: normal;
-}
-.extra-bold {
-  font-weight: 700;
-}
-.vision-text-bread {
-  padding-left: 0;
-  margin-left: 10%;
-  padding: 2rem 2rem 2rem 0rem;
-  color: var(--secondary-color-hero);
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
+  mix-blend-mode: difference;
 }
 /*VISION ENDS*/
 
 /*FOOTER*/
-.footer-wrapper {
-  background-color: var(--primary-color-main);
-  color: var(--secondary-color-hero);
+footer {
+  background-color: var(--primary-black);
   width: 100%;
+}
+.footer-wrapper {
+  color: var(--secondary-color-hero);
   height: 20.625rem;
   flex-shrink: 0;
   display: flex;
 }
-.logo-socials {
+.left-footer-column {
+  
   display: flex;
-  width: 33%;
-  gap: 2rem;
-  flex-direction: column;
-  justify-content: center;
-}
-.copyright {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-}
-.social-media {
-  display: flex;
-  gap: 1.5rem;
-}
-.mail-trapper {
-  width: 33%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.mail-trapper-text-footer {
-  margin-top: 5%;
-  color: var(--secondary-color-hero);
-  text-align: center;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.footer-form {
-  margin-top: 10%;
-  display: flex;
-}
-.email-input {
-  display: flex;
-  width: 17.4375rem;
-  justify-content: space-between;
   align-items: center;
 }
-.btn-footer {
-  font-family: "IBM Plex Sans", sans-serif;
-  border: none;
-  background-color: var(--btn-color-main);
-  color: var(--secondary-color-hero);
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.credentials {
-  width: 33%;
-  display: flex;
-  font-family: "IBM Plex Sans", sans-serif;
-  flex-direction: row;
-  align-items: center;
-}
-
-.footer-columns {
+.left-footer-content {
+  padding-top: 2rem;
   gap: 1rem;
   display: flex;
   flex-direction: column;
+  color: var(--primary-white);
+  border-top: solid 2px var(--primary-white);
+  border-bottom: solid 2px var(--primary-white);
+  border-radius: 16px;
 }
-.heading-footer-credentials {
-  margin-bottom: 15%;
-  margin-left: 0;
-  color: var(--secondary-color-hero);
-  text-align: center;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.int {
-  color: var(--secondary-color-hero);
-  font-size: 1rem;
+.left-footer-content > p {
+  padding-bottom:2rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 300;
-  line-height: normal;
+  line-height: 1.5rem;
 }
-.copyright-small {
-  display: none;
+.footer-logo {
+  width: 11.12238rem;
+  height: 4rem;
+}
+.center-footer-column {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  border-top: solid 2px var(--primary-white);
+  border-bottom: solid 2px var(--primary-white);
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-white);
+  border-radius: 16px;
+}
+.center-footer-column > p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+.footer-button {
+  color: var(--primary-white);
+  text-transform: capitalize;
+  font-family: "IBM Plex Sans", sans-serif;
+  border: 1px solid var(--primary-white);
+  background-color: var(--primary-black);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5rem;
+  border-radius: 8px;
+}
+.right-footer-column {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  border-top: solid 2px var(--primary-white);
+  border-bottom: solid 2px var(--primary-white);
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: var(--primary-white);
+  text-align: center;
+  border-radius: 16px;
+}
+.right-footer-column > p {
+  
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5rem;
 }
 /*FOOTER ENDS*/
 
@@ -543,1129 +517,42 @@ content{
   * {
     max-width: 360px;
   }
-  /* navbar */
-  .nav-bar {
-    gap: 0;
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 5.875rem;
-    padding: 0rem 0rem;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .logo {
-    margin-left: 10%;
-    height: 100%;
-    background-color: var(--primary-color-main-small-display);
-    color: var(--secondary-color-hero);
-  }
-  .nav-mid {
-    display: none;
-  }
-  .navbar-anchor {
-    display: none;
-  }
-  .bars {
-    display: flex;
-    width: 10%;
-    /* height: 100%; */
-    color: var(--secondary-color-hero);
-  }
-  .hamburger {
-    color: var(--secondary-color-hero);
-  }
-  /* navbar ends*/
-  /* hero */
-  .hero {
-    gap: 25rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-  }
-  .hero-main {
-    background-color: var(--primary-color-main-small-display);
-    display: block;
-    width: 100%;
-    height: 50rem;
-    flex-shrink: 0;
-  }
-  .text-wrapper {
-    margin: 0;
-    padding: 0;
-    width: 60%;
-    position: relative;
-    top: 7rem;
-    left: 3.5rem;
-    font-family: "IBM Plex Sans", sans-serif;
-  }
-  .main-header > h1 {
-    color: var(--secondary-color-hero);
-    font-family: "Trispace", sans-serif;
-    font-size: 2.82688rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-  .header-para > p {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 92%; /* 0.92rem */
-  }
-  .mail-collector > p {
-    font-family: "IBM Plex Sans", sans-serif;
-    text-align: center;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 107%; /* 1.07rem */
-  }
-  .btn-hero {
-    width: 6.9375rem;
-    height: 1.625rem;
-    flex-shrink: 0;
-    border-radius: 0.5rem;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  .big-bottom {
-    margin: 0;
-    color: var(--secondary-color-hero);
-  }
-  .mail-collector {
-    gap: 1.5rem;
-    display: flex;
-    flex-direction: column;
-  }
-  /* hero ends */
-  /* main */
-  main {
-    display: flex;
-    height: 22rem;
-  }
-  .main-product3d {
-    display: flex;
-    flex-direction: column;
-  }
-  .bg-black {
-    display: flex;
-    background-color: var(--primary-color-main);
-    width: 100%;
-    flex-wrap: wrap;
-    align-content: center;
-  }
-  .produkt-text-header {
-    font-family: "Trispace", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    padding-left: 0;
-  }
-  .produkt-text-bread {
-    display: none;
-    padding-left: 16%;
-    margin: 0;
-    color: var(--secondary-color-main);
-    font-family: "IBM Plex Sans", "Trispace", sans-serif;
-    font-size: 3.8rem;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 92%;
-  }
-  .bg-checkers {
-    border-top: solid 1rem var(--primary-color-main);
-    border-bottom: solid 1rem var(--primary-color-main);
-    border-left: solid 1rem var(--primary-color-main);
-    border-right: solid 1rem var(--primary-color-main);
-    height: 23.5rem;
-    width: 100%;
-    background-image: url("assets/3D produkt checkersBG.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  /* main ends */
-  /* product cards */
-  .product-wrapper {
-    width: 100%;
-    background-color: var(--primary-color-main);
-  }
-  .produkt-text-header {
-    margin-top: 1rem;
-    font-family: "Trispace", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    padding-left: 0;
-  }
-  .product-header {
-    padding-top: 2%;
-    margin-top: 0%;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-  .product-card-box {
-    gap: 1rem;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .product-cards {
-    background-color: var(--background-color-productCards);
-    width: 100%;
-    border: 5px solid var(--primary-color-main);
-    display: flex;
-    border-left-width: 10px;
-    border-right-width: 10px;
-  }
-  .product-card-text {
-    margin-bottom: 1rem;
-    padding: 0 30px 0 30px;
-    height: 29rem;
-    gap: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: center;
-  }
-  .product-card-product-name {
-    color: var(--secondary-color-hero);
-    font-family: "Trispace", sans-serif;
-    font-size: 1.4375rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .product-card-p {
-    color: var(--secondary-color-hero);
-    text-align: center;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-  }
-  .product-card-button {
-    color: var(--primary-color-main);
-    width: 9.8125rem;
-    height: 1.8rem;
-    border-radius: 0.5rem;
-    background-color: var(--secondary-color-hero);
-    font-family: "Trispace", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: uppercase;
-  }
-  .product-card-img {
-    display: none;
-    /* display: flex; */
-    width: 70%;
-    height: 100%;
-    mix-blend-mode: luminosity;
-    align-items: center;
-  }
-  /* product cards ends */
-  /* vision */
-
-  .main-vision {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-  }
-  .vision-text-header {
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-  .extra-bold {
-    font-weight: 700;
-  }
-  .semi-header-vision {
-    margin-left: 10%;
-    gap: 0.5rem;
-    color: var(--secondary-color-hero);
-    font-family: "IBM Plex Sans", sans-serif;
-    display: flex;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  .vision-text-bread {
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  /* vision ends */
-  /* footer */
-  .footer-wrapper {
-    background-color: var(--primary-color-main);
-    color: var(--secondary-color-hero);
-    width: 100%;
-    height: 20.625rem;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .mail-trapper-text-footer {
-    font-size: 0.94125rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .logo-socials {
-    display: flex;
-    width: 33%;
-    gap: 2rem;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .copyright {
-    display: none;
-  }
-  .copyright-small {
-    display: flex;
-  }
-  .logo-footer {
-    width: 50%;
-  }
-  .mail-trapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .footer-form {
-    width: 90%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    display: flex;
-  }
-  .credentials {
-    width: 100%;
-    display: flex;
-    font-family: "IBM Plex Sans", sans-serif;
-    flex-direction: row;
-  }
-  .heading-footer-credentials {
-    margin: 1px;
-    margin-bottom: 15%;
-    margin-left: 0;
-    color: var(--secondary-color-hero);
-    text-align: center;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .column-left {
-    /*  width: 50%; */
-  }
-  .column-right {
-    /*  width: 50%; */
-  }
-  .footer-columns {
-    margin-bottom: 1rem;
-    margin-left: 3rem;
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    align-items: flex-start;
-  }
-  span {
-    margin: 1px;
-    margin-left: 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .int {
-    margin-left: 1px;
-  }
-  .heading-footer-credentials {
-    margin-left: 0px;
-  }
-  /* footer ends */
+  
 }
 @media (max-width: 500px) {
   * {
     max-width: 500px;
   }
-  /* navbar */
-  .nav-bar {
-    gap: 15rem;
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 5.875rem;
-    padding: 0rem 0rem;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .logo {
-    margin-left: 10%;
-    height: 100%;
-    background-color: var(--primary-color-main-small-display);
-    color: var(--secondary-color-hero);
-  }
-  .nav-mid {
-    display: none;
-  }
-  .navbar-anchor {
-    display: none;
-  }
-  .bars {
-    display: flex;
-    width: 10%;
-    /* height: 100%; */
-    color: var(--secondary-color-hero);
-  }
-  .hamburger {
-    color: var(--secondary-color-hero);
-  }
-  /* navbar ends*/
-  /* hero */
-  .hero {
-    gap: 25rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-  }
-  .hero-main {
-    background-color: var(--primary-color-main-small-display);
-    display: block;
-    width: 100%;
-    height: 50rem;
-    flex-shrink: 0;
-  }
-  .text-wrapper {
-    margin: 0;
-    padding: 0;
-    width: 60%;
-    position: relative;
-    top: 7rem;
-    left: 3.5rem;
-    font-family: "IBM Plex Sans", sans-serif;
-  }
-  .main-header > h1 {
-    color: var(--secondary-color-hero);
-    font-family: "Trispace", sans-serif;
-    font-size: 2.82688rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-  .header-para > p {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 92%; /* 0.92rem */
-  }
-  .mail-collector > p {
-    font-family: "IBM Plex Sans", sans-serif;
-    text-align: center;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 107%; /* 1.07rem */
-  }
-  .btn-hero {
-    width: 6.9375rem;
-    height: 1.625rem;
-    flex-shrink: 0;
-    border-radius: 0.5rem;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  .big-bottom {
-    margin: 0;
-    color: var(--secondary-color-hero);
-  }
-  .mail-collector {
-    gap: 1.5rem;
-    display: flex;
-    flex-direction: column;
-  }
-  /* hero ends */
-  /* main */
-  main {
-    display: flex;
-    height: 22rem;
-  }
-  .main-product3d {
-    display: flex;
-    flex-direction: column;
-  }
-  .bg-black {
-    display: flex;
-    background-color: var(--primary-color-main);
-    width: 100%;
-    flex-wrap: wrap;
-    align-content: center;
-  }
-  .produkt-text-header {
-    font-family: "Trispace", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    padding-left: 0;
-  }
-  .produkt-text-bread {
-    display: none;
-    padding-left: 16%;
-    margin: 0;
-    color: var(--secondary-color-main);
-    font-family: "IBM Plex Sans", "Trispace", sans-serif;
-    font-size: 3.8rem;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 92%;
-  }
-  .bg-checkers {
-    border: solid 1rem var(--primary-color-main);
-    /* border-top: solid 1rem var(--primary-color-main);
-    border-bottom: solid 1rem var(--primary-color-main);
-    border-left: solid 1rem var(--primary-color-main);
-    border-right: solid 1rem var(--primary-color-main); */
-    height: 23.5rem;
-    width: 100%;
-    background-image: url("assets/3D produkt checkersBG.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  /* main ends */
-  /* product cards */
-  .product-wrapper {
-    width: 100%;
-    background-color: var(--primary-color-main);
-  }
-  .produkt-text-header {
-    margin-top: 1rem;
-    font-family: "Trispace", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    padding-left: 0;
-  }
-  .product-header {
-    padding-top: 2%;
-    margin-top: 0%;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-  .product-card-box {
-    gap: 1rem;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .product-cards {
-    background-color: var(--background-color-productCards);
-    width: 100%;
-    border: 5px solid var(--primary-color-main);
-    display: flex;
-    border-left-width: 10px;
-    border-right-width: 10px;
-  }
-  .product-card-text {
-    margin-bottom: 1rem;
-    padding: 0 30px 0 30px;
-    height: 29rem;
-    gap: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: center;
-  }
-  .product-card-product-name {
-    color: var(--secondary-color-hero);
-    font-family: "Trispace", sans-serif;
-    font-size: 1.4375rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .product-card-p {
-    color: var(--secondary-color-hero);
-    text-align: center;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-  }
-  .product-card-button {
-    color: var(--primary-color-main);
-    width: 9.8125rem;
-    height: 1.8rem;
-    border-radius: 0.5rem;
-    background-color: var(--secondary-color-hero);
-    font-family: "Trispace", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: uppercase;
-  }
-  .product-card-img {
-    display: none;
-    /* display: flex; */
-    width: 70%;
-    height: 100%;
-    mix-blend-mode: luminosity;
-    align-items: center;
-  }
-  /* product cards ends */
-  /* vision */
-
-  .main-vision {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-  }
-  .vision-text-header {
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-  .extra-bold {
-    font-weight: 700;
-  }
-  .semi-header-vision {
-    margin-left: 10%;
-    gap: 0.5rem;
-    color: var(--secondary-color-hero);
-    font-family: "IBM Plex Sans", sans-serif;
-    display: flex;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  .vision-text-bread {
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  /* vision ends */
-  /* footer */
-  .footer-wrapper {
-    background-color: var(--primary-color-main);
-    color: var(--secondary-color-hero);
-    width: 100%;
-    height: 100%;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .mail-trapper-text-footer {
-    font-size: 0.94125rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .logo-socials {
-    display: flex;
-    width: 33%;
-    gap: 2rem;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .copyright {
-    display: none;
-  }
-  .copyright-small {
-    display: flex;
-  }
-  .logo-footer {
-    width: 50%;
-  }
-  .mail-trapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .footer-form {
-    width: 90%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    display: flex;
-  }
-  .credentials {
-    width: 100%;
-    display: flex;
-    font-family: "IBM Plex Sans", sans-serif;
-    flex-direction: row;
-  }
-  .heading-footer-credentials {
-    margin: 1px;
-    margin-bottom: 15%;
-    margin-left: 0;
-    color: var(--secondary-color-hero);
-    text-align: center;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .column-left {
-    /*  width: 50%; */
-  }
-  .column-right {
-    /*  width: 50%; */
-  }
-  .footer-columns {
-    margin-bottom: 1rem;
-    margin-left: 3rem;
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    align-items: flex-start;
-  }
-  span {
-    margin: 1px;
-    margin-left: 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .int {
-    margin-left: 1px;
-  }
-  .heading-footer-credentials {
-    margin-left: 0px;
-  }
-  /* footer ends */
+ 
 }
 @media (max-width: 800px) {
   * {
     max-width: 800px;
   }
-  /* navbar */
-  .logo {
-    margin-left: 5%;
-    height: 100%;
-    background-color: var(--primary-color-main-small-display);
-    color: var(--secondary-color-hero);
+  
+}
+@media (max-width: 1024px) {
+  * {
+    max-width: 1024px;
   }
-  .nav-bar {
-    gap: 24rem;
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 5.875rem;
-    padding: 0rem 0rem;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
+  
+}
+@media (max-width: 1280px) {
+  * {
+    max-width: 1280px;
   }
-  .logo {
-    margin-left: 10%;
-    height: 100%;
-    background-color: var(--primary-color-main-small-display);
-    color: var(--secondary-color-hero);
+  
+}
+@media (max-width: 1440px) {
+  * {
+    max-width: 1440px;
   }
-  .nav-mid {
-    display: none;
+  
+}
+@media (max-width: 1920px) {
+  * {
+    max-width: 1920px;
   }
-  .navbar-anchor {
-    display: none;
-  }
-  .bars {
-    display: flex;
-    width: 10%;
-    /* height: 100%; */
-    color: var(--secondary-color-hero);
-  }
-  .hamburger {
-    color: var(--secondary-color-hero);
-  }
-  /* navbar ends*/
-  /* hero */
-  .hero {
-    gap: 25rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-  }
-  .hero-main {
-    background-color: var(--primary-color-main-small-display);
-    display: block;
-    width: 100%;
-    height: 50rem;
-    flex-shrink: 0;
-  }
-  .text-wrapper {
-    margin: 0;
-    padding: 0;
-    width: 60%;
-    position: relative;
-    top: 7rem;
-    left: 3.5rem;
-    font-family: "IBM Plex Sans", sans-serif;
-  }
-  .main-header > h1 {
-    color: var(--secondary-color-hero);
-    font-family: "Trispace", sans-serif;
-    font-size: 2.82688rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-  .header-para > p {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 92%; /* 0.92rem */
-  }
-  .mail-collector > p {
-    font-family: "IBM Plex Sans", sans-serif;
-    text-align: center;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 107%; /* 1.07rem */
-  }
-  .btn-hero {
-    width: 6.9375rem;
-    height: 1.625rem;
-    flex-shrink: 0;
-    border-radius: 0.5rem;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  .big-bottom {
-    margin: 0;
-    color: var(--secondary-color-hero);
-  }
-  .mail-collector {
-    gap: 1.5rem;
-    display: flex;
-    flex-direction: column;
-  }
-  /* hero ends */
-  /* main */
-  main {
-    display: flex;
-    height: 22rem;
-  }
-  .main-product3d {
-    display: flex;
-    flex-direction: column;
-  }
-  .bg-black {
-    display: flex;
-    background-color: var(--primary-color-main);
-    width: 100%;
-    flex-wrap: wrap;
-    align-content: center;
-  }
-  .produkt-text-header {
-    font-family: "Trispace", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    padding-left: 0;
-  }
-  .produkt-text-bread {
-    display: none;
-    padding-left: 16%;
-    margin: 0;
-    color: var(--secondary-color-main);
-    font-family: "IBM Plex Sans", "Trispace", sans-serif;
-    font-size: 3.8rem;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 92%;
-  }
-  .bg-checkers {
-    border: solid 1rem var(--primary-color-main);
-    /* border-top: solid 1rem var(--primary-color-main);
-    border-bottom: solid 1rem var(--primary-color-main);
-    border-left: solid 1rem var(--primary-color-main);
-    border-right: solid 1rem var(--primary-color-main); */
-    height: 23.5rem;
-    width: 100%;
-    background-image: url("assets/3D produkt checkersBG.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  /* main ends */
-  /* product cards */
-  .product-wrapper {
-    width: 100%;
-    background-color: var(--primary-color-main);
-  }
-  .produkt-text-header {
-    margin-top: 1rem;
-    font-family: "Trispace", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    padding-left: 0;
-  }
-  .product-header {
-    padding-top: 2%;
-    margin-top: 0%;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-  .product-card-box {
-    gap: 1rem;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .product-cards {
-    background-color: var(--background-color-productCards);
-    width: 100%;
-    border: 5px solid var(--primary-color-main);
-    display: flex;
-    border-left-width: 10px;
-    border-right-width: 10px;
-  }
-  .product-card-text {
-    margin-bottom: 1rem;
-    padding: 0 30px 0 30px;
-    height: 29rem;
-    gap: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: center;
-  }
-  .product-card-product-name {
-    color: var(--secondary-color-hero);
-    font-family: "Trispace", sans-serif;
-    font-size: 1.4375rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .product-card-p {
-    color: var(--secondary-color-hero);
-    text-align: center;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-  }
-  .product-card-button {
-    color: var(--primary-color-main);
-    width: 9.8125rem;
-    height: 1.8rem;
-    border-radius: 0.5rem;
-    background-color: var(--secondary-color-hero);
-    font-family: "Trispace", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: uppercase;
-  }
-  .product-card-img {
-    display: none;
-    /* display: flex; */
-    width: 70%;
-    height: 100%;
-    mix-blend-mode: luminosity;
-    align-items: center;
-  }
-  /* product cards ends */
-  /* vision */
+  
+}
 
-  .main-vision {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-  }
-  .vision-text-header {
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-  .extra-bold {
-    font-weight: 700;
-  }
-  .semi-header-vision {
-    margin-left: 10%;
-    gap: 0.5rem;
-    color: var(--secondary-color-hero);
-    font-family: "IBM Plex Sans", sans-serif;
-    display: flex;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  .vision-text-bread {
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  /* vision ends */
-  /* footer */
-  .footer-wrapper {
-    gap: 0.5rem;
-    background-color: var(--primary-color-main);
-    color: var(--secondary-color-hero);
-    width: 100%;
-    height: 100%;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .mail-trapper-text-footer {
-    font-size: 0.94125rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .logo-socials {
-    display: flex;
-    width: 33%;
-    gap: 2rem;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .copyright {
-    display: none;
-  }
-  .copyright-small {
-    display: flex;
-  }
-  .logo-footer {
-    width: 50%;
-  }
-  .mail-trapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .footer-form {
-    width: 50%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    display: flex;
-  }
-  .credentials {
-    height: 11rem;
-    width: 100%;
-    display: flex;
-    font-family: "IBM Plex Sans", sans-serif;
-    flex-direction: row;
-  }
-  .heading-footer-credentials {
-    margin: 1px;
-    margin-bottom: 15%;
-    margin-left: 0;
-    color: var(--secondary-color-hero);
-    text-align: center;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .column-left {
-    padding-bottom: 4rem;
-    gap: 0rem;
-    /* width: 50%; */
-  }
-  .column-right {
-    /*  width: 50%; */
-  }
-  .footer-columns {
-    margin-bottom: 1rem;
-    margin-left: 3rem;
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    align-items: flex-start;
-  }
-  span {
-    margin: 1px;
-    margin-left: 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .int {
-    margin-left: 1px;
-  }
-  .heading-footer-credentials {
-    margin-left: 0px;
-  }
-  /* footer ends */
-}
-@media (max-width: 1076px) {
-  .nav-bar {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 5.875rem;
-    padding: 0rem 0rem;
-    justify-content: center;
-    align-items: center;
-    gap: 18.75rem;
-    flex-shrink: 0;
-    flex-direction: row;
-  }
-}

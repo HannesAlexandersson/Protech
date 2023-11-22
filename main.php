@@ -1,4 +1,7 @@
 <?php // lanseringsdelenav sidan för den nya produkten?>
+<div class="rect-wrapper">
+    <img class="hero-rect" src="assets/hero/Rectangle 90.png" />
+</div>
 <main class="main-rd">
     <div class="bg-black">    
         <div class="produkt-wrapper">

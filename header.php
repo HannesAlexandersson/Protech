@@ -22,6 +22,5 @@
                 </div>
             </div>
         </div>
-    </div>
-    <img class="hero-rect" src="assets/hero/Rectangle 90.png" />
+    </div>    
 </hero>

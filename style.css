@@ -23,12 +23,12 @@
 }
 html {
   background-color: var(--primary-black);
+  background-image: url("assets/backgrounds/gradient_medium.png");
+  background-repeat: repeat;
 }
 body {
-  background-repeat: no-repeat;
-  background-image: url("assets/backgrounds/Group102.png");
-  background-size: cover;
-  background-clip: content-box;
+  /* background-image: url("assets/backgrounds/Gradient.png");
+  background-repeat: round; */
 }
 a {
   text-decoration: none;
@@ -94,10 +94,10 @@ a:hover {
 
 .hero-main {
   display: block;
-  /* background-image: url("assets/backgrounds/background_with_gradient.png"); */
-  /* background-repeat: no-repeat;
+  background-image: url("assets/backgrounds/utanallt.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-clip: content-box; */
+  background-clip: content-box;
   width: 100%;
   height: 68rem;
   flex-shrink: 0;
@@ -186,84 +186,45 @@ a:hover {
   width: 10.1875rem;
   height: 3.0625rem;
 }
+
 /* hero ends */
 /* MAIN */
-/* .rect-wrapper {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  background-image: url('assets/backgrounds/Gradient.png');
-  background-repeat: no-repeat;
-  position: relative;
-  top: 1%;
-} */
-/* .hero-rect {
-  margin: 0;  
-  
-} */
 .bg-black {
+  height: 100rem;
   background-image: url("assets/backgrounds/black_filemap_background_svg.svg");
   display: flex;
-  height: 104.5rem;
-  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.main-product-outer-wrapper {
-  gap: 16.6rem;
+.border-box-main {
+  border: 5px solid white;
   display: flex;
-  width: 100%;
-  height: 104.72756rem;
+  flex-direction: row;
+  justify-content: center;
   align-content: center;
+  border-image: url(assets/box-borders/HorizontallinesDESKTOP.png)37 478 /13% 83%/ 33px stretch;
+}
+.left-box-model-box {
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  background-image: url(assets/main/only_background_NO_product.svg);
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
-.main-product-wrapper {
-  /*back-up if browser dont support border-img*/
-  border-top: 3px solid var(--primary-white);
-  border-bottom: 4px solid var(--primary-white);
-  /*end back-up*/
-  border-image: url('assets/box-borders/HorizontallinesDESKTOP.png') 53 / 51px
-    55px / 2rem stretch;
+.center-box-model-box {
+  padding: 0 1rem 0 1rem;
 }
-
-.box-3d {
-  margin: 4rem;
-  gap: 2.5rem;
+.right-box-model-box {
   display: flex;
-}
-.vertical-line {  
-  height: 100%;
-  color: var(--primary-white);
-  padding: 0 0.5rem 0 0.5rem;
-}
-.productText-3d {
-  --b: 2px; /* thickness of the border */
-  --c: #fffcf5; /* color of the border */
-  --w: 10px; /* width of border */
-  border: var(--b) solid #0000; /* space for the border */
-  --_g: #0000 90deg, var(--c) 0;
-  --_p: var(--w) var(--w) border-box no-repeat;
-  background: conic-gradient(
-        from 90deg at top var(--b) left var(--b),
-        var(--_g)
-      )
-      0 0 / var(--_p),
-    conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 /
-      var(--_p),
-    conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% /
-      var(--_p),
-    conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g))
-      100% 100% / var(--_p);
-  border-radius: 3px;
-  display: flex;
-  height: 33.75rem;
-  padding: 2rem;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  border-image: url(assets/box-borders/Boxcornders@2x.png) 60 43 /8% 6%/ 0px;
 }
 .model-info {
-  width: 100%;
+  margin: 0 1rem 0 1rem;
   display: flex;
   color: var(--Primary-green);
   font-family: "IBM Plex Sans", sans-serif;
@@ -271,39 +232,28 @@ a:hover {
   font-style: normal;
   font-weight: 300;
   line-height: 1.5rem;
+  flex-direction: row;
   justify-content: space-between;
 }
-.model-info > span {
+.left {
   margin: 0;
+  text-align: left;
+}
+.right {
+  margin: 0;
+  text-align: right;
 }
 .model-header {
   color: var(--primary-white);
-  font-family: "Trispace", sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 4.25rem;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   line-height: normal;
 }
-.small-text-model {
-  display: flex;
-  width: 28rem;
-  gap: 1rem;
-  height: 14.75rem;
-  justify-content: flex-start;
-  flex-direction: column;
-}
+
 .model-bread {
-  color: var(--primary-white);
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 1.5rem;
-}
-.model-specs {
-  gap: 1rem;
   display: flex;
-  margin-left: 0;
   color: var(--primary-white);
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 1.25rem;
@@ -311,13 +261,52 @@ a:hover {
   font-weight: 300;
   line-height: 1.5rem;
   flex-direction: column;
+  gap: 1rem;
 }
-.model-spec-list {
-  margin-left: 0.5rem;
-  padding-left: 1rem;
+.model-bread > p {
+  margin: 0;
 }
+.model-list{
+  margin: 0;
+}
+.model-bread > ol {
+  
+}
+
 /* MAIN ENDS */
 /*PRODUCT CARDS*/
+content {
+  margin-bottom: 10rem; /* remove when we get more content  */
+  display: flex;
+}
+.sec-product {
+  position: relative;
+  margin: 0;
+  display: flex;
+  width: 49.8125rem;
+  height: 27.6875rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+.sec-product {
+  position: relative;
+  margin: 0;
+  display: flex;
+  width: 50.8125rem;
+  height: 28.6875rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+.border-box-with-corner {
+  left: 1rem;
+  border: 2px solid var(--primary-white);
+  border-image: url("assets/box-borders/Boxcornders@2x.png") 58 43 /34% 10%/ 7px;
+  position: relative;
+}
 
 .sec-product-box {
   gap: 2rem;
@@ -327,59 +316,37 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-.sec-product {
-  position: relative;
-  margin: 0;  
-  display: flex;  
-  width: 50.8125rem;
-  height: 28.6875rem;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: center;
-}
-.border-box-with-corner{
-  left: 1rem;
-  border: 2px solid var(--primary-white);
-  border-image: url('assets/box-borders/Boxcornders@2x.png') 58 43 /34% 10%/ 7px;
-  position: relative;
-}
-
-.sec-prod-text-box {
-  padding: 1rem;
-  gap: 1rem;
-  display: flex;
-  color: var(--primary-white);
-  flex-direction: column;
-}
-.sec-prod-text-box > h4{
-  font-family: 'Anton', sans-serif;
+.sec-prod-text-box > h4 {
+  font-family: "Anton", sans-serif;
   font-size: 2.8125rem;
   font-style: normal;
   font-weight: 400;
-  line-height:  3.10781rem;
+  line-height: 3.10781rem;
   letter-spacing: 0.08438rem;
 }
-.synt {  
- /*  background-size: auto; */
+.synt {
+  /*  background-size: auto; */
   background-repeat: round;
   border: 2px solid var(--primary-white);
-  background-image: url('assets/backgrounds/productBackdrops/ff3.png');
-  border-image: url('assets/box-borders/HorizontallinesDESKTOP.png') 53 / 51px 55px / 2rem stretch;
+  background-image: url("assets/backgrounds/productBackdrops/ff3.png");
+  border-image: url("assets/box-borders/HorizontallinesDESKTOP.png") 53 / 51px
+    55px / 2rem stretch;
 }
-.speakers{
+.speakers {
   background-size: auto;
   background-repeat: round;
   border: 2px solid var(--primary-white);
-  background-image: url('assets/backgrounds/productBackdrops/liggande_party_final4k.png');
-  border-image: url('assets/box-borders/HorizontallinesDESKTOP.png') 53 / 51px 55px / 2rem stretch;
+  background-image: url("assets/backgrounds/productBackdrops/liggande_party_final4k.png");
+  border-image: url("assets/box-borders/HorizontallinesDESKTOP.png") 53 / 51px
+    55px / 2rem stretch;
 }
-.pedals{
+.pedals {
   background-size: auto;
   background-repeat: round;
   border: 2px solid var(--primary-white);
-  background-image: url('assets/backgrounds/productBackdrops/Pedalcontentfill3.png');
-  border-image: url('assets/box-borders/HorizontallinesDESKTOP.png') 53 / 51px 55px / 2rem stretch;
+  background-image: url("assets/backgrounds/productBackdrops/Pedalcontentfill3.png");
+  border-image: url("assets/box-borders/HorizontallinesDESKTOP.png") 53 / 51px
+    55px / 2rem stretch;
 }
 /*FOOTER*/
 footer {
@@ -397,7 +364,7 @@ footer {
   margin-top: 5rem;
   display: flex;
   align-items: center;
-  border-image: url("assets/box-borders/Horizontal\ lines\ footer\ DESKTOP.png")
+  border-image: url("assets/box-borders/HorizontallinesfooterDESKTOP.png")
     27 23 / 50px 30px / 1rem round space;
 }
 .left-footer-content {
@@ -435,7 +402,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: var(--primary-white);
-  border-image: url("assets/box-borders/Horizontal\ lines\ footer\ DESKTOP.png")
+  border-image: url("assets/box-borders/HorizontallinesfooterDESKTOP.png")
     27 23 / 50px 30px / 1rem round space;
 }
 .center-footer-column > p {
@@ -467,7 +434,7 @@ footer {
   flex-wrap: wrap;
   color: var(--primary-white);
   text-align: center;
-  border-image: url("assets/box-borders/Horizontal\ lines\ footer\ DESKTOP.png")
+  border-image: url("assets/box-borders/HorizontallinesfooterDESKTOP.png")
     27 23 / 50px 30px / 1rem round space;
 }
 .right-footer-column > p {

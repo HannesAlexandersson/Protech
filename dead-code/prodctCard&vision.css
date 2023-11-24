@@ -1,0 +1,86 @@
+.product-header {
+    background-color: var(--primary-color-main);
+    color: var(--secondary-color-hero);
+    width: 100%;
+    font-family: "Trispace", sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .product-header > h1 {
+    margin-left: 7%;
+  }
+  .product-card-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product-cards {
+    background-color: var(--background-color-productCards);
+    width: 50%;
+    border: 1px solid var(--primary-color-main);
+    display: flex;
+  }
+  .product-card-text {
+    gap: 3rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .product-card-product-name {
+    color: var(--secondary-color-hero);
+    font-family: "Trispace", sans-serif;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+  }
+  .product-card-p {
+    color: var(--secondary-color-hero);
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .product-card-button {
+    color: var(--primary-color-main);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: var(--secondary-color-hero);
+    font-family: "Trispace", sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .product-card-img {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    mix-blend-mode: luminosity;
+    align-items: center;
+  }
+  .product-img {
+    width: 77%;
+    height: 82%;
+  }
+  /*PRODUCT CARDS ENDS*/
+  /*VISION*/
+  .main-vision {
+    width: 100%;
+    height: 56rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    mix-blend-mode: difference;
+  }
+  /*VISION ENDS*/

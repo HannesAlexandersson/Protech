@@ -1,13 +1,13 @@
 <?php // lanseringsdelenav sidan för den nya produkten?>
-<div class="rect-wrapper">
-    <img class="hero-rect" src="assets/hero/Rectangle 90.png" />
-</div>
-<main class="main-rd">
-    <div class="bg-black">    
-        <div class="produkt-wrapper">
+<main class="bg-black">
+    <div class="main-product-outer-wrapper">    
+        <div class="main-product-wrapper">
             <div class="box-3d">
                 <div class="product-3d">
                     <img class="product-3d-img" src="assets/main/product_3d_with_background.svg" alt="3d-model">
+                </div>
+                <div class="vertical-line-wrapper">
+                    <img class="vertical-line" src="assets/Designsystem/vertical_line.svg" alt="vertical-line">
                 </div>
                 <div class="productText-3d">
                     <div class="model-info">
@@ -37,5 +37,39 @@
                 </div>
             </div>
         </div> 
+        <div class="sec-product-box">
+            <div class="sec-product synt">
+                <div class="border-box-with-corner">
+                    <div class="sec-prod-text-box">
+                        <h4>SYNTAR</h4>
+                        <p class="model-bread">Se alla syntar i nya kollektionen</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-product speakers">
+                <div class="border-box-with-corner">
+                    <div class="sec-prod-text-box">
+                        <h4>HÖGTALARE</h4>
+                        <p class="model-bread">Se alla högtalare i nya kollektionen</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-product pedals">
+                <div class="border-box-with-corner">
+                    <div class="sec-prod-text-box">
+                        <h4>PEDALER</h4>
+                        <p class="model-bread">Se alla pedaler i nya kollektionen</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-product synt">
+                <div class="border-box-with-corner">
+                    <div class="sec-prod-text-box">
+                        <h4>SEQUENCERS</h4>
+                        <p class="model-bread">Se alla sequncers i nya kollektionen</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>      
 </main>

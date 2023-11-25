@@ -193,8 +193,9 @@ a:hover {
 /* hero ends */
 /* MAIN */
 .bg-black {
+  width: 100dvw;
   height: 100rem;
-  background-image: url("assets/backgrounds/black_filemap_background_svg.svg");
+  background-image: url('assets/backgrounds/black_filemap_background_svg.svg');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -301,24 +302,14 @@ content {
   position: relative;
   margin: 0;
   display: flex;
-  width: 49.8125rem;
+  width: 45%;
   height: 27.6875rem;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: center;
 }
-.sec-product {
-  position: relative;
-  margin: 0;
-  display: flex;
-  /* width: 50.8125rem; */
-  /* height: 28.6875rem; */
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: center;
-}
+
 .border-box-with-corner {
   left: 1rem;
   border: 2px solid var(--primary-white);
@@ -470,7 +461,7 @@ footer {
     flex-direction: column;
   }
 }
-@media (min-width: 360px) and (max-width: 500px) {
+@media (min-width: 360px) {
   * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -679,10 +670,6 @@ line-height: 107%;
 content {  
   display: none;
 }
-
-
-
-
 
 /* CAROSEL*/
 /* external css: flickity.css */
@@ -925,8 +912,8 @@ line-height: normal;
   border-image: url(assets/box-borders/HorizontallinesfooterDESKTOP.png) 27 23 / 50px 30px / 1rem round space;
 }
 }
-@media (min-width: 800px) {
-}
+
+
 @media (min-width: 942px) {
   .nav-bar-mobile {
     display: none;

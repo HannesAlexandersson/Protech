@@ -8,8 +8,8 @@
         <a class="navbar-anchor"  href="#"><p>Kontakt</p></a>
     </div>
     <div class="bars">
-        <img class="hamburger" src="assets/hero/Search Icon.png" />
-        <img class="lang" src="assets/hero/Language icon.png" />
+        <img class="hamburger" src="assets/hero/nav/Search Icon.png" />
+        <img class="lang" src="assets/hero/nav/Language icon.png" />
     </div>
 </nav>
 <nav class="nav-bar-mobile">

@@ -25,4 +25,36 @@
             </div>
         </div>
     </div>
+    <div class="border-image-conatiner">
+    <div class="border-box-main-mobile">
+        <div class="boxed-corner-mobile-container">
+            <div class="border-box-mobile-top">
+            <div class="model-info">
+                    <p class="left">3D Model</p>
+                    <p class="right">001</p>
+                </div>
+                <div class="model-header">
+                    <h4>Synthesia:</h4>
+                </div>
+                <div class="model-bread-mobile">
+                    <p>Synthesia kan ta dig från vardagsrummet till yttre rymden.</p>                    
+                    <P class="margin-left-zero">Specs om produkten:</P>
+                    <ol class="model-list-mobile">
+                        <li></li>
+                        <li></li>
+                        <li></li>                    
+                    </ol>                    
+                </div>
+            </div>
+        </div>
+        <div class="border-box-mobile-mid">
+            <hr></hr>
+        </div>
+        <div class="boxed-corner-mobile-container">
+            <div class="border-box-mobile-bot">
+                <img src="assets/product_img/mobile-background-withproduct.png" alt="product" class="product-3d-mobile" />
+            </div>
+        </div>
+    </div>
+    </div>
 </main>

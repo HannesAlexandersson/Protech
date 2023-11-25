@@ -1,0 +1,126 @@
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+ 
+.gallery {
+    margin: 2rem;
+    width: 82%;
+    height: 89%;
+    background:black;
+}
+
+.gallery-cell {
+  width: 100%;
+  /*storlek på bilderna*/
+  height: 65rem;
+  margin-right: 10px;
+  background: #8c8;
+  counter-increment: gallery-cell;
+
+  color: white;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  display: none;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.one {
+    padding: 5rem 0 5rem 0;
+    height: 100%;
+
+  background-image: url("assets/product_img/mobile/synt-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.synt {
+    padding: 5rem 0 5rem 0;
+    height: 100%;
+
+  background-image: url("assets/product_img/mobile/synt-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.two {
+    padding: 5rem 0 5rem 0;
+    height: 100%;
+
+  background-image: url("assets/product_img/mobile/stående_party_final4k\ 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.speakers {
+    padding: 5rem 0 5rem 0;
+    height: 100%;
+
+  background-image: url("assets/product_img/mobile/stående_party_final4k\ 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.three{
+    padding: 5rem 0 5rem 0;
+    height: 100%;
+
+  background-image: url("assets/product_img/mobile/PedalcontentfillStående2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pedals {
+    padding: 5rem 0 5rem 0;
+    height: 100%;
+
+  background-image: url("assets/product_img/mobile/PedalcontentfillStående2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.four {
+    padding: 5rem 0 5rem 0;
+    height: 100%;
+
+  background-image: url("assets/product_img/mobile/seq_vertikal_BG\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.seq {
+    padding: 5rem 0 5rem 0;
+    height: 100%;
+
+  background-image: url("assets/product_img/mobile/seq_vertikal_BG\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.outer-border-box {
+    display: flex;
+    justify-content: center;
+    height: 70rem;
+
+
+  border-image-source:url('assets/box-borders/HorizontallinesMOBILE.png') ;
+  border-image-slice:28 0 29 0;
+  border-image-width:20px 20px 20px 20px;
+  border-image-outset:0px 0px 0px 0px;
+  border-image-repeat:stretch stretch;
+  border-style:solid;  
+
+}
+.corners {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 18rem;
+}

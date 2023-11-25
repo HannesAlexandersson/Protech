@@ -12,3 +12,11 @@
         <img class="lang" src="assets/hero/Language icon.png" />
     </div>
 </nav>
+<nav class="nav-bar-mobile">
+    <div class="logo-wrapper-mobile">
+        <img class="logo-mobile" src="assets/logotypes/mobilLogo.png" />
+    </div>
+    <div class="bars-mobile">
+        <img class="hamburger" src="assets/Designsystem/PhonehamburgerBars.png" />        
+    </div>
+</nav>

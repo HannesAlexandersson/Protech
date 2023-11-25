@@ -10,6 +10,20 @@
                     </div>
                 </div>              
             <?php }?>  
-        </div>  
+        </div>         
     </content>
-</body>
+    <div class="cont-carusel">
+        <div class="outer-border-box">
+            <div class="gallery js-flickity"
+                data-flickity-options='{ "cellAlign": "left", "contain": true }'><?php
+                foreach ($productArray as $product){?>
+                <div class="gallery-cell <?=$product['produkt-class-mob']?>">
+                    <div class="corners">                    
+                        <h4><?= $product['produkt-namn'] ?></h4>
+                        <p><?= $product['produkt-beskrivning'] ?></p>
+                    </div>                
+                </div><?php
+                }?>
+            </div>
+        </div>
+    </div>

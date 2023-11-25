@@ -10,7 +10,8 @@ $productArray =
         "produkt-kategori" => "produkt-kategori1",
         "produkt-antal" => "produkt-antal1",
         "produkt-id" => "produkt-id1",
-        "produkt-class" => "synt"
+        "produkt-class" => "synt",
+        "produkt-class-mob" => "synt-mob"
     ],
     "produkt-namn2" => 
     [
@@ -21,7 +22,8 @@ $productArray =
         "produkt-kategori" => "produkt-kategori2",
         "produkt-antal" => "produkt-antal2",
         "produkt-id" => "produkt-id2",
-        "produkt-class" => "speakers"
+        "produkt-class" => "speakers",
+        "produkt-class-mob" => "speakers-mob"
     ],
     "produkt-namn3" => 
     [
@@ -32,7 +34,8 @@ $productArray =
         "produkt-kategori" => "produkt-kategori3",
         "produkt-antal" => "produkt-antal3",
         "produkt-id" => "produkt-id3",
-        "produkt-class" => "pedals"
+        "produkt-class" => "pedals",
+        "produkt-class-mob" => "pedals-mob"        
     ],
     "produkt-namn4" => 
     [
@@ -43,6 +46,7 @@ $productArray =
         "produkt-kategori" => "produkt-kategori4",
         "produkt-antal" => "produkt-antal4",
         "produkt-id" => "produkt-id4",
-        "produkt-class" => "synt"
+        "produkt-class" => "synt",
+        "produkt-class-mob" => "seq-mob"
     ],
 ];

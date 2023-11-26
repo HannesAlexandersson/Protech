@@ -9,7 +9,6 @@
         </p>
     </div>
     <div class="bg-checkers">
-        <!--PLACEHOLDER-->
-        <img src="assets/backgrounds/mobile/Bildtransparans.png" alt="placeholder">
+        <!--PLACEHOLDER-->       
     </div>
 </div>

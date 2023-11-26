@@ -618,7 +618,19 @@ footer {
   background-size: cover;
   }
 }
-
+@media (min-width: 600px) {
+  .main-header > h1 {
+    font-size: 3.4rem;
+  }
+}
+@media (min-width: 800px) {
+  .main-header > h1 {
+    font-size: 4.6rem;
+  }
+  .header-para {
+    width: 50%;
+  }
+}
 @media (min-width: 900px) {
   .nav-bar-mobile {
     display: none;
@@ -745,6 +757,7 @@ body {
   padding-left: 0rem;
 }
 .header-para {
+  width: 100%;
   padding-right: 0rem;
   padding-left: 0rem;
 }
@@ -1110,6 +1123,7 @@ footer {
   .sec-product {
     height: 20rem;
   }
+  
 }
 
 @media (min-width: 1300px){
@@ -1125,6 +1139,9 @@ footer {
   .navbar-anchor > p{
     font-size: 1.2rem;
   }
+  .header-para {
+    width: 78%;
+}
 }
 
 @media (min-width: 1440px){
@@ -1150,6 +1167,9 @@ footer {
 }
 .product-3d {
   width: 89%;
+}
+.header-para {
+  width: 60%;
 }
 }
 

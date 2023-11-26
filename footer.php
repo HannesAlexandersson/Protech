@@ -5,7 +5,7 @@
             <div class="left-footer-column">
                 <div class="left-footer-content">
                     <img src="assets/logotypes/desktopLogo.svg" alt="logo" class="footer-logo" />
-                    <p><?= create_copyright()?></p>                        
+                    <p class="footer-p"><?= create_copyright()?></p>                        
                 </div>
                 <div class="social-media-wrapper">
                     <a href="#"><img src="assets/socialmedia/Facebook.svg" alt="facebook" class="social-media-icon" /></a>

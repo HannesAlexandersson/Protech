@@ -5,7 +5,7 @@
                     <div class="border-box-with-corner">
                         <div class="sec-prod-text-box">
                             <h4><?= $product['produkt-namn'] ?></h4>
-                            <p class="model-bread"><?= $product['produkt-beskrivning'] ?></p>                    
+                            <p class="model-bread-text"><?= $product['produkt-beskrivning'] ?></p>                    
                         </div>
                     </div>
                 </div>              

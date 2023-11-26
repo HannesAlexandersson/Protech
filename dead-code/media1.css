@@ -1,0 +1,159 @@
+.nav-bar {
+    gap: 18%;
+  }
+  .text-wrapper {
+    width: 60%;
+  }
+  .header-para {
+    padding-right: 10rem;
+    padding-left: 3rem;
+  }
+  .big-bottom {
+    padding-left: 3rem;
+  }
+  .social-media-icon {
+    width: 1.4rem;
+  }
+  .footer-logo {
+    width: 40%;
+    height: 4rem;
+  }
+  .left-footer-content > p {
+    font-size: 1rem;
+  }
+  .right-footer-column {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1205px) {
+  .nav-bar {
+    gap: 23%;
+  }
+  .logo {
+    width: 10.07938rem;
+    height: 4rem;
+    margin-left: 2rem;
+  }
+
+  .main-header {
+    padding-left: 4rem;
+  }
+  .header-para {
+    padding-right: 21rem;
+    padding-left: 4rem;
+  }
+  .big-bottom {
+    padding-left: 4rem;
+  }
+  .hero {
+    gap: 8rem;
+  }
+  .mail-collector {
+    padding-left: 1rem;
+  }
+  .right-box-model-box {
+    margin: 0 2rem 0 0;
+  }
+  .left-box-model-box {
+    margin: 0 0 0 2rem;
+  }
+  .footer-logo {
+    width: 50%;
+    height: 4rem;
+  }
+  .left-footer-content > p {
+    font-size: 1rem;
+
+    line-height: 1.25rem;
+  }
+  .social-media-wrapper {
+    gap: 1rem;
+  }
+  .social-media-icon {
+    width: 1.5rem;
+  }
+  .center-footer-column > p {
+    font-size: 1.25rem;
+  }
+  .right-footer-column > p {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1300px) {
+  .header-para {
+    padding-right: 21rem;
+    padding-left: 6rem;
+  }
+  .big-bottom {
+    padding-left: 6rem;
+    padding-right: 0rem;
+    margin: 0;
+  }
+  .sec-product {
+    width: 45%;
+  }
+  .product-3d {
+    width: 95%;
+  }
+}
+@media (min-width: 1440px) {
+  .header-para {
+    padding-left: 4rem;
+  }
+  .big-bottom {
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .header-para {
+    padding-left: 5rem;
+  }
+  .big-bottom {
+    padding-left: 5rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .main-header {
+    padding-left: 0rem;
+    margin-left: 7rem;
+  }
+  .header-para {
+    padding-left: 7rem;
+  }
+  .big-bottom {
+    padding-left: 7rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .main-header {
+    padding-left: 0rem;
+    margin-left: 7rem;
+  }
+  .header-para {
+    padding-left: 8rem;
+  }
+  .big-bottom {
+    padding-left: 8rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  * {
+    max-width: 1920px;
+  }
+  .main-header {
+    padding-left: 0rem;
+  }
+  .header-para {
+    padding-left: 8rem;
+  }
+  .big-bottom {
+    padding-left: 8rem;
+  }
+  .product-3d {
+    width: 100%;
+  }
+}

@@ -8,8 +8,8 @@
                     <p class="footer-p"><?= create_copyright()?></p>                        
                 </div>
                 <div class="social-media-wrapper">
-                    <a href="#"><img src="assets/socialmedia/Facebook.svg" alt="facebook" class="social-media-icon" /></a>
-                    <a href="#"><img src="assets/socialmedia/Instagram.svg" alt="instagram" class="social-media-icon" /></a>
+                    <a href="#"><img src="assets/socialMedia/Facebook.svg" alt="facebook" class="social-media-icon" /></a>
+                    <a href="#"><img src="assets/socialMedia/Instagram.svg" alt="instagram" class="social-media-icon" /></a>
                     <a href="#"><img src="assets/socialMedia/twitterx.svg" alt="twitter" class="social-media-icon" /></a>                           
                 </div>
             </div>

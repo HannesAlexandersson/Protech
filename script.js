@@ -40,3 +40,5 @@ function showEmailInput() {
       alert("Du avbröt inskickningen av e-postadressen.");
   }
 }
+
+// animation buttons transforms to textinput

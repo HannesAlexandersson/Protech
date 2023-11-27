@@ -6,9 +6,9 @@
         <meta property="Description"    content="Landing page for Protech-launch site">
         <meta property="og:title"       content="Protech">
         <meta property="og:description" content="Product launching page and information">
-        <title>Protech</title>
-        <link rel="stylesheet" href="style.css"/>
+        <title>Protech</title>        
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&family=Trispace:wght@700;800&family=Anton&display=swap" rel="stylesheet">

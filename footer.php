@@ -1,6 +1,5 @@
 </body>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-<script src="script.js"></script>
     <footer>
         <div class="footer-wrapper">                
             <div class="left-footer-column">
@@ -16,7 +15,7 @@
             </div>
             <div class="center-footer-column">
                 <p class="footer-p">Glöm inte din rabatt på 20% :<?=')'?></p>
-                <button class="footer-button">REGISTRERA</button>
+                <button class="footer-button" onclick="showEmailInput()">REGISTRERA</button>                
             </div>
             <div class="right-footer-column">
                 <p class="footer-p"><a href="#">Om oss</p></a>
@@ -24,5 +23,6 @@
                 <p class="footer-p"><a href="#">Cookies & integritets-policy</p></a>
             </div>
         </div>
+        <script src="script.js"></script>
     </footer>    
 </html>

@@ -18,7 +18,7 @@
             <div class="big-bottom"> 
                 <div class="mail-collector">
                     <p>Registrera din mail för att få 20% rabatt vid lansering.</p>
-                    <button class="btn-hero">REGISTRERA</button>
+                    <button class="btn-hero" onclick="showEmailInput()">REGISTRERA</button>                    
                 </div>
             </div>            
         </div>

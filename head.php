@@ -8,6 +8,7 @@
         <meta property="og:description" content="Product launching page and information">
         <title>Protech</title>        
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

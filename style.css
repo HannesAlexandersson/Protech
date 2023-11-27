@@ -609,8 +609,8 @@ footer {
 
 .right-footer-column {
   width: 80%;
-  margin-bottom: 0rem;
-  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
   gap: 1rem;
   display: flex;
   align-items: center;
@@ -627,6 +627,17 @@ footer {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+.right-footer-column > p:hover{
+  color: var(--primary-white);
+  border: 5px solid transparent;
+  border-image-source: url(assets/box-borders/Boxcornders@2x.png);
+  border-image-slice: 28% 37% 24% 29%;
+  border-image-width: 9px;
+  border-image-repeat: round;
+}
+.get-top{
+  display: none;
 }
 
 /*media q outcommented for now*/
@@ -677,6 +688,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  top:  1rem;
 }
 .logo-wrapper {
   left: 4%;
@@ -996,7 +1008,7 @@ content {
   display: flex;
 }
 .sec-product-box {
-  gap: 2rem;
+  gap: 3rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -1176,10 +1188,17 @@ footer {
   font-weight: 300;
   line-height: 1.5rem;
 }
-
-
+.get-mid{
+  display: none;
+}
+.get-top{
+  display: flex;
+}
 }
 @media (min-width: 1095px){
+  .nav-mid {
+    gap: 2.74rem;
+  }
   .bg-black {
     background-size: cover;
   }

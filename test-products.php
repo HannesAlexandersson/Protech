@@ -13,6 +13,11 @@
         </div>         
     </content>
     <div class="cont-carusel">
+        <div class="necessary-wrapper">
+            <div class="about-us free-float-cornerBox">
+                <h4 class="mobil-h4">KOLLEKTION X24</h4>
+            </div>
+        </div>
         <div class="outer-border-box">
             <div class="gallery js-flickity"
                 data-flickity-options='{ "cellAlign": "left", "contain": true }'><?php

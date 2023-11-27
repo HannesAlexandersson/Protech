@@ -2,16 +2,17 @@
     <div class="sec-product-box">
         <?php require 'backend/dbLoad.php'; ?>
         <?php foreach ($proInfo as $product){ ?>
-            <div class="sec-product <?= $product['class']; ?>">
-                <div class="border-box-with-corner">
-                    <div class="sec-prod-text-box">
-                        <h4><?= $product['name']; ?></h4>
-                        <p class="model-bread-text"><?= $product['desc']; ?></p>
-                    </div>
-                </div>              
-            <?php }?>  
-        </div>         
-    </content>
+        <div class="sec-product <?= $product['class']; ?>">
+            <div class="border-box-with-corner">
+                <div class="sec-prod-text-box">
+                    <h4><?= $product['name']; ?></h4>
+                    <p class="model-bread-text"><?= $product['desc']; ?></p>
+                </div>
+            </div>
+        </div>              
+    <?php }?>  
+    </div>         
+</content>
     <div class="cont-carusel">
         <div class="necessary-wrapper">
             <div class="about-us free-float-cornerBox">

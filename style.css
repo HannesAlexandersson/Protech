@@ -190,7 +190,7 @@ body {
   padding: 0;
   width: 70%;
   position: relative;
-  top: 22rem;
+  top: 14rem;
   left: 1rem;
   font-family: "IBM Plex Sans", sans-serif;
 }
@@ -227,7 +227,7 @@ body {
   line-height: 115.05%;
 }
 .big-bottom {
-  width: 20rem;
+  width: 18rem;
   display: flex;
   margin: 0;
   color: var(--primary-white);
@@ -383,7 +383,7 @@ body {
   display: none;
 }
 .mobile-version-wrapper {
-  height: 51rem;
+  height: 63rem;
   background-color: var(--background-black);
   display: flex;
   flex-direction: column;
@@ -457,17 +457,19 @@ body {
   border-style: solid;
 }
 .border-box-mobile-bot {
+  height: 22rem;
   padding: 0.5rem;
   display: flex;
-  /* background-image: url('assets/backgrounds/mobile/Vector.png');
+  background-image: url('assets/backgrounds/mobile/Vector.png');
   background-position: center;
-  background-repeat: no-repeat;   */
+  background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  background-size: cover;
 }
 .product-3d-mobile {
-  width: 95%;
+  width: 90%;
 }
 
 /* MAIN MOBILE ENDS */
@@ -761,9 +763,13 @@ height: 58rem;
   width: 100%;
 }
 .detail-image-wrapper {
+  display: flex;  
+  justify-content: center;
 }
 .detail-image {
-  margin: 2rem;
+  width: 80%;
+  padding: 0.1rem;
+    margin: 2rem 0 2rem 0;
 }
 .top-margin {
   margin-top: 2rem;
@@ -899,8 +905,31 @@ footer {
 /*media q outcommented for now*/
 /* } */
 /*media q outcommented for now*/
-
+@media (min-width: 400px){
+  .big-bottom {
+    width: 22rem;
+  }
+}
 @media (min-width: 500px) {
+  .big-top {
+    gap: 4.625rem;
+  }
+  .text-wrapper {
+    top: 13rem;
+  }
+  .header-para {
+    width: 68%;
+  }
+  .big-bottom {
+    width: 14rem;
+    padding-left: 0%;
+  }
+  .mail-collector > p {
+    text-align: justify;
+  }
+  .btn-hero {
+    margin-left: 0;
+  }
   .outer-border-box {
     width: 85%;
   }
@@ -955,7 +984,15 @@ footer {
     justify-content: center;
   }
 }
+@media (min-width: 700px) {
+  .text-wrapper {
+    top: 16rem;
+}
+}
 @media (min-width: 800px) {
+  .text-wrapper {
+    top: 17rem;
+}
   .main-header > h1 {
     font-size: 4.6rem;
   }
@@ -1253,18 +1290,20 @@ footer {
     display: flex;
     background-image: url(assets/main/only_background_NO_product.svg);
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
   }
   .product-3d {
     width: 100%;
   }
   .center-box-model-box {
+    display: flex;
     margin: 0;
     padding: 0 1.5rem 0 1.5rem;
+    align-items: center;
   }
   .vertical-line {
-    height: 20rem;
-  }
+    height: 25rem;
+}
   /*MODEL INFO TEXT BOX*/
   .right-box-model-box {
     width: calc(40% - 1rem);
@@ -1797,4 +1836,7 @@ footer {
   .model-header {
     font-size: 4.25rem;
   }
+  .vertical-line {
+    height: 32rem;
+}
 }

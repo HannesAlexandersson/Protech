@@ -6,7 +6,7 @@
         </div>     
         <div class="border-box-main">
             <div class="left-box-model-box">
-                <img src="assets/main/only_3d_product_NO_background.png" alt="product" class="product-3d" />
+                <img src="assets/product_img/gifs/6c7ff5b8f76349a409513600ec58496d.gif" alt="product-gif" class="product-3d" />
             </div>
             <div class="center-box-model-box">
                 <img src="assets/Designsystem/vertical_line.svg" alt="vertical line" class="vertical-line" />
@@ -66,7 +66,7 @@
                 </div>
                 <div class="boxed-corner-mobile-container">
                     <div class="border-box-mobile-bot">
-                        <img src="assets/product_img/mobile-background-withproduct.png" alt="product" class="product-3d-mobile" />
+                        <img src="assets/product_img/gifs/6c7ff5b8f76349a409513600ec58496d.gif" alt="product-gif" class="product-3d-mobile" />
                     </div>
                 </div>
             </div>

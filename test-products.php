@@ -1,5 +1,10 @@
 <content>  
-    <div class="sec-product-box">
+    <div class="hide-mobile">
+        <div class="about-us free-float-cornerBox">
+            <h4 class="mobil-h4">KOLLEKTION X24</h4>
+        </div>
+        </div>        
+    <div class="sec-product-box">        
         <?php require 'backend/dbLoad.php'; ?>
         <?php foreach ($proInfo as $product){ ?>
         <div class="sec-product <?= $product['class']; ?>">

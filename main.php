@@ -1,29 +1,34 @@
 <main class="bg-black"><!-- desktop-version -->
-    <div class="border-box-main">
-        <div class="left-box-model-box">
-            <img src="assets/main/only_3d_product_NO_background.png" alt="product" class="product-3d" />
-        </div>
-        <div class="center-box-model-box">
-            <img src="assets/Designsystem/vertical_line.svg" alt="vertical line" class="vertical-line" />
-        </div>
-        <div class="right-box-model-box">
-            <div class="model-info">
-                <p class="left">3D Model</p>
-                <p class="right">001</p>
+    <div class="rl-back">
+        <div class="free-float-cornerBox about-us">
+            <h4 class="mobil-h4">3D-VY</h4>
+        </div>     
+        <div class="border-box-main">
+            <div class="left-box-model-box">
+                <img src="assets/main/only_3d_product_NO_background.png" alt="product" class="product-3d" />
             </div>
-            <div class="model-header">
-                <h3>Synthesia:</h3>
+            <div class="center-box-model-box">
+                <img src="assets/Designsystem/vertical_line.svg" alt="vertical line" class="vertical-line" />
             </div>
-            <div class="model-bread">
-                <p>Synthesia kan ta dig från vardagsrummet till yttre rymden.</p>
-                <P>Specs om produkten:</P>
-                <ol class="model-list">
-                    <li></li>
-                    <li></li>
-                    <li></li>                    
-                </ol>
+            <div class="right-box-model-box">
+                <div class="model-info">
+                    <p class="left">3D Model</p>
+                    <p class="right">001</p>
+                </div>
+                <div class="model-header">
+                    <h3>PRO-TONE GAIN</h3>
+                </div>
+                <div class="model-bread">
+                    <p>ProTone gain är en revolutionerande gain-pedal som möjliggör finjusterad formning av övertoner och klangkaraktär för att skapa en rik och dynamisk ljudbild.</p>
+                    <P>Specifikationer:</P>
+                    <ol class="model-list">
+                        <li>Dynamisk Respons - reagerar på anslagsstyrka och spelteknik.</li>
+                        <li>Inbyggd AI för EQ - styr genom en app i realtid bland oändliga pre-sets.</li>
+                        <li>Harmonic Shaping - enkla kontroller men avancerat ljud, forma harmoniska övertoner.</li>                    
+                    </ol>
+                </div>
             </div>
-        </div>
+        </div>    
     </div><!-- mobile-version -->
     <div class="mobile-version-wrapper">
         <div class="free-float-cornerBox about-us">

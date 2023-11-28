@@ -1,3 +1,4 @@
+<div class="vision-bg">
 <div class="vision-outer-container">
     <div class="about-us free-float-cornerBox">
         <h4 class="mobil-h4">Om oss</h4>
@@ -22,8 +23,10 @@
             </div>
         </div>
         <hr class="eighty-percent"></hr>
+        <img src="assets/Designsystem/vertical_line.svg" alt="separetor line" class="vr" />
         <div class="vision-text-corner-box">
             <img src="assets/product_img/vision/DDD.png" alt="product/vision-image" class="vision-image" />
         </div>        
     </div>    
+</div>
 </div>

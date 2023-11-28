@@ -35,6 +35,13 @@ body {
   background-size: cover;
   background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/last.png);
  
+
+  background-attachment: fixed;
+  background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/great.png);
+  background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/hrdo.png);
+  background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/Frame\ 7.png);
+  background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/bakgrund\ phone\ bättre\ -\ Copy.png);
+  
 }
 
 a {
@@ -159,10 +166,12 @@ body {
   width: 100vw;
   width: 100dvw;
   height: 50rem;
-  background-size: cover;
+
+  /* TURNED OFF WHILE TESTING FIXED BODY*/
+  /* background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/Frame\ 7.png);
+  background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/Frame\ 7.png); */
 }
 .hero {
   display: flex;
@@ -341,14 +350,22 @@ body {
 /* HERO MOBILE ENDS */
 
 /* MAIN MOBILE */
-
+.document-wrapper{
+  background-color: var(--background-black);
+}
 .bg-black {
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   border-image-source: url(assets/backgrounds/variant1.png);
   border-image-width: 2.6rem;
   border-image-slice: 144 54 152 21;
   border-width: 2.5rem 0px 2.5rem 0px;
+  border-style: solid; */
+
+  border-image: url("assets/backgrounds/Footer\ 1.png");
+  border-image-slice: 0 0 138 0;
+  border-width: 0.5rem 0px 0.5rem 0px;
   border-style: solid;
+   
 
   /*IMPORTED BACKGROUND DONT FIT KEEP FOR REFRENCE*/
   /* background-image: url(assets/backgrounds/3D-VY.png);
@@ -356,7 +373,7 @@ body {
   background-position: center;
   background-image: url(assets/backgrounds/3D-VY.png); */
 
-  height: 56rem;
+  height: 1rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1672,6 +1689,9 @@ footer {
 @media (min-width: 1440px) {
   body{
     background-image: url(assets/backgrounds/egna/Group\ 48\ \(1\).png);
+  }
+  .document-wrapper{
+    background-color: var(--background-black);
   }
   .nav-mid {
     gap: 4.25rem;

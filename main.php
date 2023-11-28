@@ -1,3 +1,4 @@
+<div class="document-wrapper">
 <main class="bg-black"><!-- desktop-version -->
     <div class="rl-back">
         <div class="free-float-cornerBox about-us">
@@ -28,7 +29,8 @@
                     </ol>
                 </div>
             </div>
-        </div>    
+        </div>
+    </div>        
     </div><!-- mobile-version -->
     <div class="mobile-version-wrapper">
         <div class="free-float-cornerBox about-us">

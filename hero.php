@@ -17,10 +17,15 @@
             </div>
             <div class="big-bottom"> 
                 <div class="mail-collector">
-                    <p>Registrera din mail för att få 20% rabatt vid lansering.</p>                    
-                    <button class="btn-hero" onclick="showEmailInput()">REGISTRERA</button>                    
+                    <p>Registrera din mail för att få 20% rabatt vid lansering.</p>
+                    <div id="regBtn" class="regBtn regBtnT btn-hero">
+                        <span id="regText">REGISTRERA</span>
+                        <input type="text" name="regEmail" id="regEmail" class="regEmail">
+                        <button id="okBtn" class="okBtn">OK</button>
+                    </div>
                 </div>
             </div>            
         </div>
-    </div>    
+    </div>
+    <script type="text/javascript" src="regBtn.js"></script>
 </hero>

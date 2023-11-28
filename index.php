@@ -11,5 +11,7 @@ __DIR__. require 'test-products.php';
 
 __DIR__. require 'vision.php';
 
+__DIR__. require 'detail.php';
+
 __DIR__. require 'footer.php';
 ?>

@@ -19,6 +19,10 @@
   --body-turnoff-desktop: rgba(103, 81, 81, 0);
   --zero-opacity: rgba(0, 0, 0, 0);
   --selected: rgba(95, 94, 94, 0.374);
+
+  --width-80: 80%;
+
+  
 }
 * {
   box-sizing: border-box;
@@ -46,6 +50,12 @@ a:hover {
 .margin-left-zero{
   margin-left: 0;
 }
+.margin-right-zero{
+  margin-right: 0;
+}
+.eighty-percent{
+  width:var(--width-80);
+}
 .right {
   margin: 0;
   text-align: right;
@@ -61,7 +71,16 @@ a:hover {
   font-weight: 300;
   line-height: 107%;
 }
-
+.free-float-cornerBox{
+  border: 5px solid transparent;
+  border-image-source: url(assets/box-borders/Boxcornders@2x.png);
+  border-image-slice: 28% 37% 24% 29%;
+  border-image-width: 9px;
+  border-image-repeat: round;
+}
+.inline{
+  display: inline;
+}
 /* @media (min-width: 360px) { */
   * {
     -webkit-box-sizing: border-box;
@@ -325,7 +344,12 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-
+.mobile-version-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: var(--primary-white);
+}
 .border-image-conatiner {
   border-image-source: url(assets/box-borders/HorizontallinesMOBILE.png);
   display: flex;
@@ -416,10 +440,17 @@ a:hover {
 content {  
   display: none;
 }
-
+.necessary-wrapper{
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 /* CAROSEL*/
 /* external css: flickity.css */
 .cont-carusel{
+  margin-top: 5rem;
   margin-bottom: 5rem;
   height: 100%;
   background-color: var(--background-black);
@@ -570,6 +601,11 @@ line-height: 115.05%;
   display: flex;
   flex-direction: column;
 }
+.about-us {
+  padding: 0.1rem;
+  margin-left: 1.1rem;
+  color: var(--primary-white);  
+}
 .vision-text-top {
   text-align: left;
   display: flex;
@@ -577,8 +613,21 @@ line-height: 115.05%;
   align-items: flex-start;
   justify-content: center;
   gap: 1rem;
-  padding: 1rem;
+  padding: 1rem 0 1rem 0;
   color: var(--primary-white);
+}
+.vision-text-corner-box{
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+
+  border: 5px solid transparent;
+  border-image-source: url(assets/box-borders/Boxcornders@2x.png);
+  border-image-slice: 28% 37% 24% 29%;
+  border-image-width: 9px;
+  border-image-repeat: round;
 }
 .vision-text-top > h4 {
   margin: 0;
@@ -593,28 +642,64 @@ line-height: 115.05%;
   font-weight: 400;
   line-height: normal;
 }
+.green-vision-text{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.green-text{
+  margin: 0;
+  display: flex;
+  color: var(--Primary-green);
+}
 .mobil-p{
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 300;
-  line-height: normal;
+  line-height: 115.05%;
 }
-/* WHEN CONTENT IS ADDED TO THE CHECKERS BOX THE CONTENT WILL MAKE THE WIDTH AND HEIGHT OF THE BOX*/
+/*font 600 needs to come after mobil-p to have effect*/
+.font-sixhundred{
+  font-weight: 600;
+}
+.vision-text {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
 .bg-checkers {
-  height: 17rem;
-  width: 100%;
-  background-image: url('assets/3D\ produkt\ checkersBG.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+ 
 }
 /* WHEN CONTENT IS ADDED TO THE CHECKERS BOX THE CONTENT WILL MAKE THE WIDTH AND HEIGHT OF THE BOX*/
 /*VISION ENDS*/
 
+/*DETAIL*/
+.detail-wrapper {
+  width: 100vw;
+  width: 100dvw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0 5rem 0;
+  gap: 2rem;
+}
+.detail-container{
+  width: 100%;  
+}
+.detail-image-wrapper {
+ 
+}
+.detail-image {
+  margin: 2rem;
+}
+/*DETAIL ENDS*/
+
+
+
 /*FOOTER MOBILE*/
-
-
 
 footer {
   background-color: var(--primary-black);
@@ -710,6 +795,12 @@ footer {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+
+  /*Needs to be here to prevent "moving" on hover*/
+  border: 5px solid transparent;  
+  border-image-slice: 28% 37% 24% 29%;
+  border-image-width: 9px;
+  border-image-repeat: round;  
 }
 .right-footer-column > p:hover{
   color: var(--primary-white);
@@ -804,10 +895,13 @@ footer {
 .navbar-anchor {
   gap: 0.4rem;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  flex-direction: row;  
+
+  /*Needs to be here to prevent "moving" on hover*/
+  border: 5px solid transparent;  
+  border-image-slice: 28% 37% 24% 29%;
+  border-image-width: 9px;
+  border-image-repeat: round;
 }
 .navbar-anchor > img{
   height: 2.2rem;
@@ -979,6 +1073,9 @@ body {
 
 /* MAIN*/
 /*TURN OFF MOBILE STYLE*/
+.mobile-version-wrapper{
+  display: none;
+}
 .border-image-conatiner {
   display: none;
 }

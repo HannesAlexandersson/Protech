@@ -41,7 +41,7 @@ body {
   background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/hrdo.png);
   background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/gradient\ med\ planeter.png);
   background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/bakgrund\ phone\ bättre\ -\ Copy.png);
-  
+  background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/gradient\ med\ planeter.png);
 }
 
 a {
@@ -168,10 +168,11 @@ body {
   height: 50rem;
 
   /* TURNED OFF WHILE TESTING FIXED BODY*/
-  /* background-size: cover;
+   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/Frame\ 7.png); */
+  background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/Frame\ 7.png);
+  background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/hrdo.png);
 }
 .hero {
   display: flex;
@@ -1796,7 +1797,7 @@ footer {
 
 @media (min-width: 1440px) {
   body{
-    background-image: url(assets/backgrounds/egna/Group\ 48\ \(1\).png);
+    background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/gradient\ med\ planeter.png);
   }
   .document-wrapper{
     background-color: var(--background-black);

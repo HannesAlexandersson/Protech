@@ -4,13 +4,13 @@
     </div>
     <div class="nav-mid">
         <a class="navbar-anchor" href="#"><p>Produkter</p>
-            <img src="assets/navbarOutlines.svg">
+           <!--  <img src="assets/navbarOutlines.svg"> -->
         </a>
         <a class="navbar-anchor"  href="#"><p>Om</p><p> oss</p>
-            <img src="assets/navbarOutlines.svg">
+           <!--  <img src="assets/navbarOutlines.svg"> -->
         </a>
         <a class="navbar-anchor"  href="#"><p>Kontakt</p>
-            <img src="assets/navbarOutlines.svg">
+           <!--  <img src="assets/navbarOutlines.svg"> -->
         </a>
     </div>
     <div class="bars">

@@ -1100,8 +1100,9 @@ footer {
     height: 3.5rem;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
-    color: var(--background-black);
-    background-color: #b8b8b8;
+    color: var(--primary-white);
+
+    /* background-color: #b8b8b8; */
     gap: 2.74rem;
     display: flex;
     font-family: "IBM Plex Sans", sans-serif;
@@ -1123,14 +1124,22 @@ footer {
     border-image-width: 9px;
     border-image-repeat: round;
   }
-  .navbar-anchor > img {
+  /* .navbar-anchor > img {
     height: 2.2rem;
     position: absolute;
     transition: 0.2s ease-out;
     opacity: 0;
-  }
-  .navbar-anchor:hover > img {
+  } */
+  /* .navbar-anchor:hover > img {
     opacity: 1;
+  } */
+  .navbar-anchor:hover{
+    color: var(--primary-white);
+  border: 5px solid transparent;
+  border-image-source: url(assets/box-borders/Boxcornders@2x.png);
+  border-image-slice: 28% 37% 24% 29%;
+  border-image-width: 9px;
+  border-image-repeat: round;
   }
   .bars {
     margin-right: 4rem;

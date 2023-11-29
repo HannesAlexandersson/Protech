@@ -2,13 +2,12 @@ CREATE TABLE products (
 	id INTEGER PRIMARY KEY,
 	name string,
 	desc string,
-	img string,
 	class string,
 	class_mob string
 );
 
-INSERT INTO products (name, desc, img, class, class_mob)
-VALUES ('SYNTAR', 'Se alla syntar i nya kollektionen', 'assets/backgrounds/productBackdrops/ff3.png', 'synt', 'synt-mob'),
-('HÖGTALARE', 'Se alla högtalare i nya kollektionen', 'assets/backgrounds/productBackdrops/liggande_party_final4k.png', 'speakers', 'speakers-mob'),
-('PEDALER', 'Se alla pedaler i nya kollektionen', 'assets/product_img/Placeholder_product3.svg', 'pedals', 'pedals-mob'),
-('SEQUENCERS', 'Se alla sequencers i nya kollektionen', 'assets/product_img/Placeholder_product4.svg', 'synt', 'seq-mob');
+INSERT INTO products (name, desc, class, class_mob)
+VALUES ('SYNTAR', 'Se alla syntar i nya kollektionen', 'synt', 'synt-mob'),
+('HÖGTALARE', 'Se alla högtalare i nya kollektionen', 'speakers', 'speakers-mob'),
+('PEDALER', 'Se alla pedaler i nya kollektionen', 'pedals', 'pedals-mob'),
+('SEQUENCERS', 'Se alla sequencers i nya kollektionen', 'sequensers', 'seq-mob');

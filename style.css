@@ -39,7 +39,7 @@ body {
   background-attachment: fixed;
   background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/great.png);
   background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/hrdo.png);
-  background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/Frame\ 7.png);
+  background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/gradient\ med\ planeter.png);
   background-image: url(assets/backgrounds/drive-download-20231128T094729Z-001/bakgrund\ phone\ bättre\ -\ Copy.png);
   
 }
@@ -765,7 +765,7 @@ height: 58rem;
   margin: 0.5rem;
 width: 82%;
 height: 20.625rem;
-background: black;
+/* background: black; */
 }
 .second-carosel-cell {
   display: flex;
@@ -784,17 +784,37 @@ background:var(--zero-opacity);
 .img1{
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('assets/product_img/detail/Closeup_front_side 12.png');
+  background-image: url('assets/karusell/drive-download-20231129T122840Z-001/högtalare.png');
 }
 .img2{
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('assets/product_img/detail/Back_side 1.png');
+  background-image: url('assets/karusell/drive-download-20231129T122840Z-001/key\ 1.png');
 }
 .img3{
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(assets/product_img/detail/Vector.png);
+  background-image: url('assets/karusell/drive-download-20231129T122840Z-001/key\ 2.png');
+}
+.img4{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('assets/karusell/drive-download-20231129T122840Z-001/pedal\ 1.png');
+}
+.img5{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('assets/karusell/drive-download-20231129T122840Z-001/pedal\ 2.png');
+}
+.img6{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('assets/karusell/drive-download-20231129T122840Z-001/seq\ 1.png');
+}
+.img7{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('assets/karusell/drive-download-20231129T122840Z-001/seq\ 2.png');
 }
   
  
@@ -806,8 +826,7 @@ background:var(--zero-opacity);
   width: 100%;
 }
 .detail-image-wrapper {
- /*  display: flex;  
-  justify-content: center; */
+ background-size: contain;
 }
 .detail-image {
   width: 80%;

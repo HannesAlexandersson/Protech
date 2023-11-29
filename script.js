@@ -19,16 +19,26 @@ function filterFunction() {
   }
 }
 
+
+// Scrolling navbar animation logic
 $(function(){
-  var scroll = $(document).scrollTop();
+  var lastScrollTop = 0;
   var navHeight = $('.nav-bar').outerHeight();
 
   $(window).scroll(function(){
     var scrolled = $(document).scrollTop();
+
     if(scrolled > navHeight){
-      $('.nav-bar').addClass('animate');
+      if (scrolled > lastScrollTop){        
+        $('.nav-bar').removeClass('sticky').addClass('animate');
+      } else {        
+        $('.nav-bar').removeClass('animate').addClass('sticky');
+      }
     }
-    else{
-      $('.nav-bar').removeClass('animate');
+    else{      
+      $('.nav-bar').removeClass('animate sticky');
     }
-})
+
+    lastScrollTop = scrolled;
+  });
+});

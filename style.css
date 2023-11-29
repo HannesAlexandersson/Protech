@@ -690,6 +690,9 @@ content {
 /*VISION ENDS*/
 
 /*DETAIL*/
+.detail-background {
+  margin: 1rem 0 1rem 0;
+}
 .detail-wrapper {
   height: 30rem;
   position: relative;
@@ -927,6 +930,9 @@ footer {
   }
   .outer-border-box {
     width: 85%;
+  }
+  .detail-background {
+    margin: 1rem 0 3rem 0;
   }
   .detail-image {
     padding: 0.2rem;

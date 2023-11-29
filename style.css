@@ -711,7 +711,7 @@ content {
 }
 .second-carosel-cell {
   
-  width: 20%;
+  width: 100%;
   /*storlek på bilderna*/
   height: 100%;
   margin-right: 10px;
@@ -1528,6 +1528,11 @@ footer {
   }
   /*VISION PART ENDS*/
   /*DETAIL*/
+  .second-carosel-cell {
+  /*SHOW MORE THEN 1 PIC*/
+    width: 20%;
+  }
+
 
   .desktop-hide {
     display: none;

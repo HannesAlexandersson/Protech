@@ -1027,6 +1027,9 @@ footer {
     width: 85%;
     margin: 2rem;
   }
+  .detail-background{
+    margin: 1rem 0 5rem 0;
+  }
   .vision-text-top {
     width: 85%;
     max-width: 30rem;
@@ -1055,6 +1058,9 @@ footer {
   .text-wrapper {
     top: 16rem;
 }
+.detail-background{
+  margin: 5rem 0 5rem 0;
+}
 }
 @media (min-width: 800px) {
   .text-wrapper {
@@ -1069,6 +1075,7 @@ footer {
   .hero-main {
     height: 56rem;
   }
+  
 }
 @media (min-width: 900px) {
   .nav-bar-mobile {
@@ -1463,22 +1470,32 @@ footer {
   /*TURN ON DESKTOP STYLE*/
   .hide-mobile {
     display: flex;
-    margin: 0;
-    margin-bottom: 2rem;
+    margin: 0;    
+    background-color: var(--background-black);
+    padding-bottom:2rem;
   }
-  content {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+  content {    
+    margin-top: 13rem;
+    margin-bottom: 13rem;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    border-image-source: url(assets/backgrounds/variant1.png);
+    border-image-width: 2.6rem;
+    border-image-slice: 144 54 152 21;
+    border-width: 2.5rem 0px 2.5rem 0px;
+    border-style: solid;
   }
   .sec-product-box {
+    width: 100%;
     gap: 2rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: var(--background-black);
+    padding-bottom: 5rem;
   }
   /*WRAPPER FOR ALL CARDS*/
   .sec-product {

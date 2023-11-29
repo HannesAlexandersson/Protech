@@ -110,7 +110,7 @@ body {
   display: none;
 }
 .nav-bar-mobile {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -120,7 +120,13 @@ body {
   top: 4%;
   align-items: flex-start;
 }
-
+.nav-bar-mobile.animate{
+  top: -100px;
+}
+.nav-bar-mobile.sticky{
+  top: 0;
+  z-index: 99;
+}
 .logo-wrapper-mobile {
   color: var(--primary-white);
 }

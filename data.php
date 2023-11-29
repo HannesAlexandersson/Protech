@@ -46,7 +46,7 @@ $productArray =
         "produkt-kategori" => "produkt-kategori4",
         "produkt-antal" => "produkt-antal4",
         "produkt-id" => "produkt-id4",
-        "produkt-class" => "synt",
+        "produkt-class" => "sequensers",
         "produkt-class-mob" => "seq-mob"
     ],
 ];

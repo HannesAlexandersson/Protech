@@ -765,7 +765,7 @@ height: 58rem;
 .second-carousel {
   margin: 0.5rem;
 width: 82%;
-height: 20.625rem;
+height: 22.625rem;
 /* background: black; */
 }
 .second-carosel-cell {
@@ -1186,6 +1186,16 @@ footer {
   .show {
     display: block;
   }
+  .swe{
+    gap: 0.3rem;
+    color: var(--primary-white);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5rem;
+    display: flex;
+  }
   /* NAVBAR ENDS */
 
   /*HERO START */
@@ -1493,6 +1503,13 @@ footer {
     border-image: url(assets/box-borders/HorizontallinesDESKTOP.png) 53 / 51px
       55px / 2rem stretch;
   }
+  .sequensers{
+    background-repeat: round;
+    border: 2px solid var(--primary-white);
+    background-image: url(assets/backgrounds/productBackdrops/seq_Horisontell_BG\ 1.png);
+    border-image: url(assets/box-borders/HorizontallinesDESKTOP.png) 53 / 51px
+      55px / 2rem stretch;
+  }
   /*INSIDE OF CARDS*/
   .border-box-with-corner {
     left: 1rem;
@@ -1775,7 +1792,7 @@ footer {
     font-size: 1.2rem;
   }
   .navbar-anchor > p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .header-para {
     width: 78%;

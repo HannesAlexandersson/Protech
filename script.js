@@ -18,3 +18,17 @@ function filterFunction() {
     }
   }
 }
+
+$(function(){
+  var scroll = $(document).scrollTop();
+  var navHeight = $('.nav-bar').outerHeight();
+
+  $(window).scroll(function(){
+    var scrolled = $(document).scrollTop();
+    if(scrolled > navHeight){
+      $('.nav-bar').addClass('animate');
+    }
+    else{
+      $('.nav-bar').removeClass('animate');
+    }
+})

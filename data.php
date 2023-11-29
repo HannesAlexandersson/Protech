@@ -28,7 +28,7 @@ $productArray =
     "produkt-namn3" => 
     [
         "produkt-namn" => "PEDALER",
-        "produkt-bild" => "assets/product_img/Placeholder_product3.svg",
+        "produkt-bild" => "assets/backgrounds/productBackdrops/Pedalcontentfill3.png",
         "produkt-pris" => "produkt-pris3",
         "produkt-beskrivning" => "Se alla pedaler i nya kollektionen",
         "produkt-kategori" => "produkt-kategori3",
@@ -40,7 +40,7 @@ $productArray =
     "produkt-namn4" => 
     [
         "produkt-namn" => "SEQUENCERS",
-        "produkt-bild" => "assets/product_img/Placeholder_product4.svg",
+        "produkt-bild" => "assets/backgrounds/productBackdrops/seq_Horisontell_BG 1.png",
         "produkt-pris" => "produkt-pris4",
         "produkt-beskrivning" => "Se alla sequencers i nya kollektionen",
         "produkt-kategori" => "produkt-kategori4",

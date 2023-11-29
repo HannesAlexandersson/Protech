@@ -4,7 +4,7 @@
             <h4 class="mobil-h4">DETALJ-VY</h4>
         </div>        
         <div class="outer-border-box detail-container">            
-            <div class="second-carousel js-flickity" data-flickity='{"cellAlign": "left", "contain": true, "autoPlay": true}'>
+            <div class="second-carousel js-flickity" data-flickity='{"cellAlign": "left", "contain": true, "autoPlay": true, "wrapAround": true}'>
                 <div class="detail-image-wrapper second-carosel-cell img1"></div>
                 <div class="detail-image-wrapper second-carosel-cell img2"></div>
                 <div class="detail-image-wrapper second-carosel-cell img3"></div>

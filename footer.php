@@ -20,7 +20,7 @@
                     <p class="footer-p"><a href="#">Cookies & integritets-policy</p></a>
                 </div>
                 <div class="center-footer-column">
-                    <p class="footer-p">Glöm inte din rabatt på 20% :)</p>
+                    <p class="footer-p">Missa inte din chans till 20% rabatt!</p>
                     <div id="regBtnFt" class="regBtnFt regBtnTFt footer-button">
                         <span id="regTextFt">REGISTRERA</span>
                         <input type="text" name="regEmailFt" id="regEmailFt" class="regEmailFt">

@@ -22,11 +22,11 @@
             <div id="dropdownContent" class="dropdown-content">
                 <input type="text" placeholder="Search..." id="searchField" class="searchField">
             </div>
-        </div>
+        </div>        
         <div class="swe">
             <p>SV</p>
-            <img class="lang" src="assets/hero/nav/Language icon.png" />
-        </div>
+            <a href="#"> <img class="lang" src="assets/hero/nav/Language icon.png" /></a>
+        </div>        
     </div>
     <script type="text/javascript" src="search.js"></script>
 </nav>

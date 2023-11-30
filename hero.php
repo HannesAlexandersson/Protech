@@ -10,7 +10,7 @@
                 </div>
                 <div class="header-para">
                     <p>
-                        ProTech introducerar en ny kollektion där avancerad teknik möter musikalisk passion. 
+                        ProTech introducerar sin nya kollektion X24, där avancerad teknik möter musikalisk passion. 
                         Var med på resan till musikens framtid.
                     </p>
                 </div>  

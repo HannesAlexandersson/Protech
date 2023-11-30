@@ -20,9 +20,14 @@
                     <p class="footer-p"><a href="#">Cookies & integritets-policy</p></a>
                 </div>
                 <div class="center-footer-column">
-                    <p class="footer-p">Glöm inte din rabatt på 20% :<?=')'?></p>
-                    <button class="footer-button" onclick="showEmailInput()">REGISTRERA</button>                
+                    <p class="footer-p">Glöm inte din rabatt på 20% :)</p>
+                    <div id="regBtnFt" class="regBtnFt regBtnTFt footer-button">
+                        <span id="regTextFt">REGISTRERA</span>
+                        <input type="text" name="regEmailFt" id="regEmailFt" class="regEmailFt">
+                        <button id="okBtnFt" class="okBtnFt">OK</button>
+                    </div>
                 </div>
+                <script type="text/javascript" src="regBtn.js"></script>
                 <div class="right-footer-column get-top">
                     <p class="footer-p"><a href="#">Om oss</p></a>
                     <p class="footer-p"><a href="#">Kontakt</p></a>

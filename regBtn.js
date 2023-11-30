@@ -3,7 +3,13 @@ const regText = document.getElementById('regText');
 const regEmail = document.getElementById('regEmail');
 const okBtn = document.getElementById('okBtn');
 
+const regBtnFt = document.getElementById('regBtnFt');
+const regTextFt = document.getElementById('regTextFt');
+const regEmailFt = document.getElementById('regEmailFt');
+const okBtnFt = document.getElementById('okBtnFt');
+
 let regBtnAnim = false;
+let regBtnAnimFt = false;
 
 regBtn.addEventListener('click', () =>{
 	if (regBtnAnim) return;
@@ -39,5 +45,42 @@ okBtn.addEventListener('click', () =>{
 		regText.textContent = "Tack!"
 		regText.style.display = 'inline';
 		regText.style.animation = 'regEmailShow 0.1s ease-out forwards';
+	}, 100);
+});
+
+regBtnFt.addEventListener('click', () =>{
+	if (regBtnAnimFt) return;
+
+	regBtnAnimFt = true;
+
+	regBtnFt.style.cursor = 'default';
+
+	regTextFt.style.animation = 'regTextGoneFt 0.1s ease-out';
+
+	setTimeout(() =>{
+		regTextFt.style.display = 'none';
+
+		regEmailFt.style.display = 'inline';
+		regEmailFt.style.animation = 'regEmailShowFt 0.1s ease-out';
+
+		regBtnFt.classList.remove('regBtnTFt');
+		regBtnFt.style.animation = 'regBtnBigFt 0.1s ease-out forwards';
+
+		okBtnFt.style.display = 'inline';
+		okBtnFt.style.animation = 'regEmailShowFt 0.1s ease-out forwards';
+	}, 100);
+});
+
+okBtnFt.addEventListener('click', () =>{
+	regEmailFt.style.animation = 'regTextGoneFt 0.1s ease-out forwards';
+	okBtnFt.style.animation = 'regTextGoneFt 0.1s ease-out forwards';
+	regBtnFt.style.animation = 'regBtnSmolFt 0.1s ease-out forwards';
+	setTimeout(() =>{
+		regEmailFt.style.display = 'none';
+		okBtnFt.style.display = 'none';
+
+		regTextFt.textContent = "Tack!"
+		regTextFt.style.display = 'inline';
+		regTextFt.style.animation = 'regEmailShowFt 0.1s ease-out forwards';
 	}, 100);
 });

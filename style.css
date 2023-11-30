@@ -332,6 +332,87 @@ body {
   }
 }
 
+.regBtnFt{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.regBtnTFt:hover{
+  background-color: var(--secondary-pink);
+}
+
+.regBtnTFt:active{
+  background-color: var(--secondary-pressed);
+}
+
+.regEmailFt{
+  height: 80%;
+  width: 86%;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.2rem;
+  display: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.9rem;
+  background-color: #fff;
+}
+
+.okBtnFt{
+  height: 80%;
+  width: 12%;
+  border: none;
+  border-radius: 0.4rem;
+  display: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.9rem;
+  background-color: #fff;
+  transition: 0.1s;
+}
+
+.okBtnFt:hover{
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@keyframes regTextGoneFt{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes regEmailShowFt{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes regBtnBigFt{
+  0%{
+    background-color: currentColor;
+  }
+  100%{
+    width: 20rem;
+    background-color: var(--Primary-green);
+  }
+}
+
+@keyframes regBtnSmolFt{
+  0%{
+    width: 20rem;
+  }
+  100%{
+    width: 10.1875rem;
+  }
+}
+
 /* HERO BUTTON ENDS */
 /* HERO MOBILE ENDS */
 
@@ -849,6 +930,8 @@ footer {
     50px 30px / 1rem round space;
 }
 .footer-button {
+  padding: 0.4rem;
+  width: 10.1875rem;
   color: var(--primary-white);
   text-transform: capitalize;
   font-family: "IBM Plex Sans", sans-serif;
@@ -858,7 +941,9 @@ footer {
   font-style: normal;
   font-weight: 300;
   line-height: 1.5rem;
-  border-radius: 8px;
+  border-radius: 1rem;
+  transition: 0.1s;
+  cursor: pointer;
 }
 
 .right-footer-column {
@@ -1072,24 +1157,19 @@ footer {
     align-items: center;
   }
   .navbar-anchor {
-    gap: 0.4rem;
+    width: 5rem;
+    position: relative;
     display: flex;
-    flex-direction: row;
-
-    /*Needs to be here to prevent "moving" on hover*/
-    border: 5px solid transparent;
-    border-image-slice: 28% 37% 24% 29%;
-    border-image-width: 9px;
-    border-image-repeat: round;
+    align-items: center;
+    justify-content: center;
   }
-  
-  .navbar-anchor:hover {
-    color: var(--primary-white);
-    border: 5px solid transparent;
-    border-image-source: url(assets/box-borders/Boxcornders@2x.png);
-    border-image-slice: 28% 37% 24% 29%;
-    border-image-width: 9px;
-    border-image-repeat: round;
+  .navbar-anchor > img{
+    position: absolute;
+    opacity: 0;
+    transition: 0.2s;
+  }
+  .navbar-anchor:hover > img{
+    opacity: 1;
   }
   .bars {
     margin-right: 4rem;
@@ -1107,11 +1187,21 @@ footer {
   .dropdown-content {
     display: none;
     position: absolute;
+    top: -0.1rem;
+    right: 2.3rem;
     background-color: var(--zero-opacity);
-    min-width: 230px;
-    border: 1px solid #ddd;
+    width: fit-content;
     z-index: 1;
-    right: 1rem;
+  }
+
+  .searchField{
+    width: 12vw;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none none solid none;
+    border-width: 0.07rem;
+    outline: none;
+    color: var(--primary-white);
+    font-size: 1rem;
   }
   .search {
     cursor: pointer;

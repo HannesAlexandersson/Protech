@@ -27,5 +27,4 @@
             </div>            
         </div>
     </div>
-    <script type="text/javascript" src="regBtn.js"></script>
 </hero>

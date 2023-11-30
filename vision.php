@@ -25,7 +25,7 @@
         <hr class="eighty-percent"></hr>
         <img src="assets/Designsystem/vertical_line.svg" alt="separetor line" class="vr" />
         <div class="vision-text-corner-box">
-            <img src="assets/product_img/vision/DDD.png" alt="product/vision-image" class="vision-image" />
+            <img src="assets/product_img/vision/nyVision.png" alt="product/vision-image" class="vision-image" />
         </div>        
     </div>    
 </div>
